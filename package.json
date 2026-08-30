@@ -1,6 +1,6 @@
 {
     "name": "easytechnomed",
-    "version": "3.1.34",
+    "version": "3.1.37",
     "private": true,
     "scripts": {
         "dev": "next dev",

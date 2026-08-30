@@ -1,4 +1,4 @@
-# Node Description Batch 85 of 150
+# Node Description Batch 85 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_patientresultorderbywithrelationinput": "PatientResultOrderByWithRelationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36317 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultpayload": "$PatientResultPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22395 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultregistrationidtestparameteridcompounduniqueinput": "PatientResultRegistrationIdTestParameterIdCompoundUniqueInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42090 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultscalarfieldenum": "PatientResultScalarFieldEnum" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34234 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultscalarwhereinput": "PatientResultScalarWhereInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48609 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultscalarwherewithaggregatesinput": "PatientResultScalarWhereWithAggregatesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36363 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultselect": "PatientResultSelect" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22365 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultselectscalar": "PatientResultSelectScalar" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22379 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultsumaggregateinputtype": "PatientResultSumAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22209 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultsumaggregateoutputtype": "PatientResultSumAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22162 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultsumorderbyaggregateinput": "PatientResultSumOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42134 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedcreateinput": "PatientResultUncheckedCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39338 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedcreatenestedmanywithoutregistrationinput": "PatientResultUncheckedCreateNestedManyWithoutRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44168 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedcreatenestedmanywithouttestparameterinput": "PatientResultUncheckedCreateNestedManyWithoutTestParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44524 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedcreatewithoutregistrationinput": "PatientResultUncheckedCreateWithoutRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48314 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedcreatewithouttestparameterinput": "PatientResultUncheckedCreateWithoutTestParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49517 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedupdateinput": "PatientResultUncheckedUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39359 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedupdatemanyinput": "PatientResultUncheckedUpdateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39389 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedupdatemanywithoutregistrationinput": "PatientResultUncheckedUpdateManyWithoutRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L53865 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedupdatemanywithoutregistrationnestedinput": "PatientResultUncheckedUpdateManyWithoutRegistrationNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44279 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedupdatemanywithouttestparameterinput": "PatientResultUncheckedUpdateManyWithoutTestParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54153 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedupdatemanywithouttestparameternestedinput": "PatientResultUncheckedUpdateManyWithoutTestParameterNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44571 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedupdatewithoutregistrationinput": "PatientResultUncheckedUpdateWithoutRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L53855 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultuncheckedupdatewithouttestparameterinput": "PatientResultUncheckedUpdateWithoutTestParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54143 | neighbors=[index.d.ts]
+- "generated_client_index_d_patientresultupdateargs": "PatientResultUpdateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23000 | neighbors=[index.d.ts]
 - "generated_client_index_d_patientresultupdateinput": "PatientResultUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39349 | neighbors=[index.d.ts]
 - "generated_client_index_d_patientresultupdatemanyargs": "PatientResultUpdateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23022 | neighbors=[index.d.ts]
 - "generated_client_index_d_patientresultupdatemanymutationinput": "PatientResultUpdateManyMutationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39381 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_patientresultupsertwithwhereuniquewithoutregistrationinput": "PatientResultUpsertWithWhereUniqueWithoutRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48593 | neighbors=[index.d.ts]
 - "generated_client_index_d_patientresultupsertwithwhereuniquewithouttestparameterinput": "PatientResultUpsertWithWhereUniqueWithoutTestParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49731 | neighbors=[index.d.ts]
 - "generated_client_index_d_patientresultwhereinput": "PatientResultWhereInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36301 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultwhereuniqueinput": "PatientResultWhereUniqueInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36330 | neighbors=[index.d.ts]
-- "generated_client_index_d_pickenumerable": "PickEnumerable" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L1001 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_adminaddressclient": "Prisma__AdminAddressClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24602 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_adminclient": "Prisma__AdminClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L11454 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_adminroleclient": "Prisma__AdminRoleClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L13415 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_adminrolepermissionclient": "Prisma__AdminRolePermissionClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L14352 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_adminsessionclient": "Prisma__AdminSessionClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L12505 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_admintrackingclient": "Prisma__AdminTrackingClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27434 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_doctorclient": "Prisma__DoctorClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L15362 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_doctorincentiveclient": "Prisma__DoctorIncentiveClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L32267 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_interpretationruleclient": "Prisma__InterpretationRuleClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31336 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_leadclient": "Prisma__LeadClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23649 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_leadcontactclient": "Prisma__LeadContactClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26510 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_parameterclient": "Prisma__ParameterClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20546 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_patientresultclient": "Prisma__PatientResultClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22748 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_pick": "Prisma__Pick" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L741 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_registrationclient": "Prisma__RegistrationClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18052 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_registrationpaymentclient": "Prisma__RegistrationPaymentClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25560 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_registrationtestclient": "Prisma__RegistrationTestClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19221 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_superadminclient": "Prisma__SuperAdminClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L5479 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_superadminsessionclient": "Prisma__SuperAdminSessionClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L6458 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_superadmintrackingclient": "Prisma__SuperAdminTrackingClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28414 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_testclient": "Prisma__TestClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L16582 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_testdepartmentclient": "Prisma__TestDepartmentClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29338 | neighbors=[index.d.ts]
-- "generated_client_index_d_prisma_testformulaclient": "Prisma__TestFormulaClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L30352 | neighbors=[index.d.ts]
 
 ## Instructions
 

@@ -1,4 +1,4 @@
-# Node Description Batch 6 of 150
+# Node Description Batch 6 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,15 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "id_route": "route.js" | kind=code-symbol | source=app/api/registrations/[id]/route.js:L1 | neighbors=[dcd11d4 first commit, DELETE(), GET(), PUT(), registrationSchema, serializeData()]
+- "lib_formulautils_calculatealldependents": "calculateAllDependents()" | kind=code-symbol | source=lib/formulaUtils.js:L680 | neighbors=[formulaEngine.js, formulaUtils.js, addPatientContextToValuesMap(), addValueToValuesMap(), checkFormulaDependencies(), evaluateExpression()]
+- "payments_paymentsclient": "paymentsClient.jsx" | kind=code-symbol | source=app/(customer)/(dashboard)/settings/payments/paymentsClient.jsx:L1 | neighbors=[dcd11d4 first commit, page.js, PaymentsClient(), page.js, 252e194 e, 532b740 fixed]
+- "runtime_edge_esm_gt": "Gt()" | kind=code-symbol | source=scratch/generated-client/runtime/edge-esm.js:L6 | neighbors=[edge-esm.js, Ee(), gc(), getAllClientExtensions(), jt(), qn()]
+- "runtime_edge_esm_hc": "hc()" | kind=code-symbol | source=scratch/generated-client/runtime/edge-esm.js:L6 | neighbors=[edge-esm.js, addErrorMessage(), getDeepField(), getDeepFieldValue(), getField(), kr()]
+- "runtime_edge_esm_hu": "hu()" | kind=code-symbol | source=scratch/generated-client/runtime/edge-esm.js:L4 | neighbors=[edge-esm.js, addErrorMessage(), asObject(), Au(), getDeepSubSelectionValue(), getField()]
+- "runtime_edge_esm_qu": "qu()" | kind=code-symbol | source=scratch/generated-client/runtime/edge-esm.js:L5 | neighbors=[edge-esm.js, lo(), getArgumentName(), getArgumentPath(), getSelectionPath(), nestArgument()]
+- "runtime_edge_esm_r": "r()" | kind=code-symbol | source=scratch/generated-client/runtime/edge-esm.js:L1 | neighbors=[edge-esm.js, co(), getOrCreate(), is(), ms(), Qe()]
+- "runtime_edge_esm_throwvalidationerror": "throwValidationError()" | kind=code-symbol | source=scratch/generated-client/runtime/edge-esm.js:L5 | neighbors=[edge-esm.js, An(), fu(), lo(), mu(), qo()]
 - "runtime_edge_esm_uu": "uu()" | kind=code-symbol | source=scratch/generated-client/runtime/edge-esm.js:L3 | neighbors=[edge-esm.js, Tr(), addErrorMessage(), addSuggestion(), getDeepSelectionParent(), getField()]
 - "runtime_edge_gu": "Gu()" | kind=code-symbol | source=scratch/generated-client/runtime/edge.js:L5 | neighbors=[edge.js, findField(), getComputedFields(), In(), nestSelection(), Vt()]
 - "runtime_edge_hasfield": "hasField()" | kind=code-symbol | source=scratch/generated-client/runtime/edge.js:L3 | neighbors=[edge.js, Ao(), du(), getField(), mu(), nu()]
@@ -48,15 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "runtime_react_native_throwvalidationerror": "throwValidationError()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L10 | neighbors=[react-native.js, Cn(), fo(), lc(), Mo(), nc()]
 - "runtime_react_native_transaction": "transaction()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L60 | neighbors=[react-native.js, commitTransaction(), getExternalAdapterError(), parseEngineResponse(), rollbackTransaction(), rp()]
 - "runtime_react_native_yn": "Yn()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L1 | neighbors=[react-native.js, oi(), k(), l(), Nt(), P()]
-- "runtime_wasm_aa": "aa()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, de(), di(), getArgumentName(), getArgumentPath(), getSelectionPath()]
-- "runtime_wasm_get": "get()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, as(), getAllBatchQueryCallbacks(), getAllClientExtensions(), getOrCreate(), sql()]
-- "runtime_wasm_getdeepfieldvalue": "getDeepFieldValue()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L3 | neighbors=[wasm.js, Bs(), getDeepField(), gs(), js(), nl()]
-- "runtime_wasm_hasfield": "hasField()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L3 | neighbors=[wasm.js, ei(), getField(), hs(), Ks(), ls()]
-- "runtime_wasm_is": "Is()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L3 | neighbors=[wasm.js, addErrorMessage(), addSuggestion(), getDeepSelectionParent(), getField(), markAsError()]
-- "runtime_wasm_js": "js()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L4 | neighbors=[wasm.js, addErrorMessage(), asObject(), getDeepFieldValue(), getDeepSubSelectionValue(), markAsError()]
-- "runtime_wasm_ls": "ls()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, addErrorMessage(), asObject(), getDeepSubSelectionValue(), getField(), hasField()]
-- "runtime_wasm_nl": "nl()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L26 | neighbors=[wasm.js, addErrorMessage(), getDeepField(), getDeepFieldValue(), getField(), Ht()]
-- "runtime_wasm_qs": "qs()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L4 | neighbors=[wasm.js, addErrorMessage(), asObject(), getDeepField(), getDeepSubSelectionValue(), getField()]
 
 ## Instructions
 

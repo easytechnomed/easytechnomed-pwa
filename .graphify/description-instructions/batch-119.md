@@ -1,4 +1,4 @@
-# Node Description Batch 120 of 150
+# Node Description Batch 120 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_userupdatemanywithwherewithoutroleinput": "UserUpdateManyWithWhereWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46726 | neighbors=[index.d.ts]
+- "generated_client_index_d_userupdatemanywithwherewithoutworkspaceinput": "UserUpdateManyWithWhereWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45920 | neighbors=[index.d.ts]
+- "generated_client_index_d_userupdateonerequiredwithoutsessionsnestedinput": "UserUpdateOneRequiredWithoutSessionsNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43359 | neighbors=[index.d.ts]
+- "generated_client_index_d_userupdatetoonewithwherewithoutsessionsinput": "UserUpdateToOneWithWhereWithoutSessionsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46603 | neighbors=[index.d.ts]
+- "generated_client_index_d_userupdatewithoutroleinput": "UserUpdateWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52754 | neighbors=[index.d.ts]
+- "generated_client_index_d_userupdatewithoutsessionsinput": "UserUpdateWithoutSessionsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46608 | neighbors=[index.d.ts]
+- "generated_client_index_d_userupdatewithoutworkspaceinput": "UserUpdateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52312 | neighbors=[index.d.ts]
+- "generated_client_index_d_userupdatewithwhereuniquewithoutroleinput": "UserUpdateWithWhereUniqueWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46721 | neighbors=[index.d.ts]
+- "generated_client_index_d_userupdatewithwhereuniquewithoutworkspaceinput": "UserUpdateWithWhereUniqueWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45915 | neighbors=[index.d.ts]
+- "generated_client_index_d_userupsertargs": "UserUpsertArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7807 | neighbors=[index.d.ts]
+- "generated_client_index_d_userupsertwithoutsessionsinput": "UserUpsertWithoutSessionsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46597 | neighbors=[index.d.ts]
+- "generated_client_index_d_userupsertwithwhereuniquewithoutroleinput": "UserUpsertWithWhereUniqueWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46715 | neighbors=[index.d.ts]
+- "generated_client_index_d_userupsertwithwhereuniquewithoutworkspaceinput": "UserUpsertWithWhereUniqueWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45909 | neighbors=[index.d.ts]
+- "generated_client_index_d_userwhereinput": "UserWhereInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34716 | neighbors=[index.d.ts]
+- "generated_client_index_d_userwhereuniqueinput": "UserWhereUniqueInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34765 | neighbors=[index.d.ts]
+- "generated_client_index_d_without": "Without" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L789 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspace": "Workspace" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspace_adminsargs": "Workspace$adminsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4694 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspace_doctorsargs": "Workspace$doctorsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4714 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspace_interpretationrulesargs": "Workspace$interpretationRulesArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4854 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspace_parametersargs": "Workspace$parametersArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4794 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspace_pdfsettingargs": "Workspace$pdfSettingArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4874 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspace_registrationsargs": "Workspace$registrationsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4734 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspace_testformulasargs": "Workspace$testFormulasArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4834 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspace_testparametersargs": "Workspace$testParametersArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4814 | neighbors=[index.d.ts]
 - "generated_client_index_d_workspace_testsargs": "Workspace$testsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4754 | neighbors=[index.d.ts]
 - "generated_client_index_d_workspace_usersargs": "Workspace$usersArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4774 | neighbors=[index.d.ts]
 - "generated_client_index_d_workspaceaggregateargs": "WorkspaceAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3814 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_workspacecountoutputtypeargs": "WorkspaceCountOutputTypeArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54270 | neighbors=[index.d.ts]
 - "generated_client_index_d_workspacecountoutputtypecountadminsargs": "WorkspaceCountOutputTypeCountAdminsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3175 | neighbors=[index.d.ts]
 - "generated_client_index_d_workspacecountoutputtypecountdoctorsargs": "WorkspaceCountOutputTypeCountDoctorsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3182 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecountoutputtypecountinterpretationrulesargs": "WorkspaceCountOutputTypeCountInterpretationRulesArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3231 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecountoutputtypecountparametersargs": "WorkspaceCountOutputTypeCountParametersArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3210 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecountoutputtypecountregistrationsargs": "WorkspaceCountOutputTypeCountRegistrationsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3189 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecountoutputtypecounttestformulasargs": "WorkspaceCountOutputTypeCountTestFormulasArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3224 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecountoutputtypecounttestparametersargs": "WorkspaceCountOutputTypeCountTestParametersArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3217 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecountoutputtypecounttestsargs": "WorkspaceCountOutputTypeCountTestsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3196 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecountoutputtypecountusersargs": "WorkspaceCountOutputTypeCountUsersArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3203 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecountoutputtypedefaultargs": "WorkspaceCountOutputTypeDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3165 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecountoutputtypeselect": "WorkspaceCountOutputTypeSelect" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3149 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreateargs": "WorkspaceCreateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4575 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreateinput": "WorkspaceCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37291 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreatemanyargs": "WorkspaceCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4593 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreatemanyinput": "WorkspaceCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37377 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreatenestedonewithoutadminsinput": "WorkspaceCreateNestedOneWithoutAdminsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43471 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreatenestedonewithoutdoctorsinput": "WorkspaceCreateNestedOneWithoutDoctorsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43765 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreatenestedonewithoutinterpretationrulesinput": "WorkspaceCreateNestedOneWithoutInterpretationRulesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44759 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreatenestedonewithoutparametersinput": "WorkspaceCreateNestedOneWithoutParametersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44349 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreatenestedonewithoutpdfsettinginput": "WorkspaceCreateNestedOneWithoutPdfSettingInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44817 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreatenestedonewithoutregistrationsinput": "WorkspaceCreateNestedOneWithoutRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44142 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreatenestedonewithouttestformulasinput": "WorkspaceCreateNestedOneWithoutTestFormulasInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44715 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreatenestedonewithouttestparametersinput": "WorkspaceCreateNestedOneWithoutTestParametersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44499 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreatenestedonewithouttestsinput": "WorkspaceCreateNestedOneWithoutTestsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43928 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreatenestedonewithoutusersinput": "WorkspaceCreateNestedOneWithoutUsersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43279 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreateorconnectwithoutadminsinput": "WorkspaceCreateOrConnectWithoutAdminsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46855 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacecreateorconnectwithoutdoctorsinput": "WorkspaceCreateOrConnectWithoutDoctorsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47591 | neighbors=[index.d.ts]
 
 ## Instructions
 

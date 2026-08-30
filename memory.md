@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 - **Name**: EasyTechnoMed PWA / LIMS (Laboratory Information Management System)
-- **Current Version**: `v3.1.32`
+- **Current Version**: `v3.1.37`
 - **Framework**: Next.js (App Router), React 19, Material-UI (MUI v7), Dexie.js (v4.4+), Prisma ORM, MySQL, pdf-lib, qrcode.
 
 
@@ -107,6 +107,9 @@
 | Version | Date | Key Changes & Milestones |
 | :--- | :--- | :--- |
 | `v3.1.32` | 2026-08-30 | Fix Auto-Save Race Condition on Test Report Completion: When user clicks "Save Results & Complete", immediately clears pending auto-save debounce timers and aborts in-flight draft requests; Added DB-level status check in `resultEntry.jsx` ensuring that subsequent auto-saves never overwrite or revert an already `"Completed"` status back to `"Pending"`. |
+| `v3.1.37` | 2026-08-31 | PWARegister Listener Scope & Syntax Cleanup: Cleaned up variable scoping in `components/PWARegister.js` ensuring `handleBeforeInstallPrompt` and `handleAppInstalled` listeners are properly scoped in `useEffect` and cleaned up without ReferenceErrors on unmount. |
+| `v3.1.36` | 2026-08-31 | Windows Desktop PWA Install Fix & Global Prompt Capture: Captured `beforeinstallprompt` globally in `components/PWARegister.js` on RootLayout load so prompt event is never missed by late-mounting components; Enhanced `PWAInstallModal.jsx` to dynamically switch to clear visual 3-step browser omnibox & menu installation instructions if native programmatic prompt is not dispatched by Chrome/Edge on Windows; Added `pwa-prompt-available` custom event synchronization. |
+| `v3.1.35` | 2026-08-31 | Standardized Web App Manifests & PWA Icons: Removed non-standard `apple-touch-icon.png` from `public/site.webmanifest`, `public/manifest.json`, and `app/manifest.js` (keeping iOS Apple touch icons strictly in HTML `<head>` metadata in `app/layout.js`); Configured standard `192x192` & `512x512` PNG icons with explicit `any` and `maskable` purposes; Bumped Service Worker cache version to `v13` in `public/sw.js` to automatically purge stale manifest caches and resolve browser manifest download errors. |
 | `v3.1.31` | 2026-08-30 | Fix Redundant Multi-API Calls on Report Update: Excluded `patientResults` from individual row-by-row `processPostOperations()` and `processPutOperations()` in `lib/offline/sync/syncManager.js`; Ensured all parameter values, notes, and report status for a patient are synced in exactly 1 consolidated batch HTTP request via `processPendingPatientResults()` instead of firing 10+ separate requests per parameter. |
 | `v3.1.30` | 2026-08-30 | Fix Premature "Completed" Registration Status & Desktop/Mobile Drawer Click Sync: Corrected default registration status in `registration/page.js` to always remain `"Pending"` regardless of whether the patient paid the full amount; Synchronized MUI media query evaluation with `{ noSsr: true }` and client screen width (`window.innerWidth >= 900`) in `AdminLayoutClient.js` for instant 1-click drawer toggle on both desktop & mobile. |
 | `v3.1.29` | 2026-08-30 | Fix First-Load Drawer Opening Delay: Added `prevPathnameRef` guard in `AdminLayoutClient.js` to prevent the route change `useEffect` from triggering on initial mount and resetting `mobileOpen` back to `false` during the first user tap. |

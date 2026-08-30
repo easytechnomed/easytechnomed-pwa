@@ -1,4 +1,4 @@
-# Node Description Batch 125 of 150
+# Node Description Batch 125 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_workspaceuncheckedupdatewithouttestformulasinput": "WorkspaceUncheckedUpdateWithoutTestFormulasInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51011 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceuncheckedupdatewithouttestparametersinput": "WorkspaceUncheckedUpdateWithoutTestParametersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49710 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceuncheckedupdatewithouttestsinput": "WorkspaceUncheckedUpdateWithoutTestsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48236 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceuncheckedupdatewithoutusersinput": "WorkspaceUncheckedUpdateWithoutUsersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46503 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdateargs": "WorkspaceUpdateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4604 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdateinput": "WorkspaceUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37334 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdatemanyargs": "WorkspaceUpdateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4626 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdatemanymutationinput": "WorkspaceUpdateManyMutationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37389 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdateonerequiredwithoutpdfsettingnestedinput": "WorkspaceUpdateOneRequiredWithoutPdfSettingNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44823 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdateonewithoutadminsnestedinput": "WorkspaceUpdateOneWithoutAdminsNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43539 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdateonewithoutdoctorsnestedinput": "WorkspaceUpdateOneWithoutDoctorsNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43821 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdateonewithoutinterpretationrulesnestedinput": "WorkspaceUpdateOneWithoutInterpretationRulesNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44777 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdateonewithoutparametersnestedinput": "WorkspaceUpdateOneWithoutParametersNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44405 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdateonewithoutregistrationsnestedinput": "WorkspaceUpdateOneWithoutRegistrationsNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44231 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdateonewithouttestformulasnestedinput": "WorkspaceUpdateOneWithoutTestFormulasNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44733 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdateonewithouttestparametersnestedinput": "WorkspaceUpdateOneWithoutTestParametersNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44531 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdateonewithouttestsnestedinput": "WorkspaceUpdateOneWithoutTestsNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44015 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdateonewithoutusersnestedinput": "WorkspaceUpdateOneWithoutUsersNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43307 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdatetoonewithwherewithoutadminsinput": "WorkspaceUpdateToOneWithWhereWithoutAdminsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47081 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdatetoonewithwherewithoutdoctorsinput": "WorkspaceUpdateToOneWithWhereWithoutDoctorsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47821 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdatetoonewithwherewithoutinterpretationrulesinput": "WorkspaceUpdateToOneWithWhereWithoutInterpretationRulesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51380 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdatetoonewithwherewithoutparametersinput": "WorkspaceUpdateToOneWithWhereWithoutParametersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49368 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdatetoonewithwherewithoutpdfsettinginput": "WorkspaceUpdateToOneWithWhereWithoutPdfSettingInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51718 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdatetoonewithwherewithoutregistrationsinput": "WorkspaceUpdateToOneWithWhereWithoutRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48721 | neighbors=[index.d.ts]
+- "generated_client_index_d_workspaceupdatetoonewithwherewithouttestformulasinput": "WorkspaceUpdateToOneWithWhereWithoutTestFormulasInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50986 | neighbors=[index.d.ts]
 - "generated_client_index_d_workspaceupdatetoonewithwherewithouttestparametersinput": "WorkspaceUpdateToOneWithWhereWithoutTestParametersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49685 | neighbors=[index.d.ts]
 - "generated_client_index_d_workspaceupdatetoonewithwherewithouttestsinput": "WorkspaceUpdateToOneWithWhereWithoutTestsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48211 | neighbors=[index.d.ts]
 - "generated_client_index_d_workspaceupdatetoonewithwherewithoutusersinput": "WorkspaceUpdateToOneWithWhereWithoutUsersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46478 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_workspaceupdatewithoutusersinput": "WorkspaceUpdateWithoutUsersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46483 | neighbors=[index.d.ts]
 - "generated_client_index_d_workspaceupsertargs": "WorkspaceUpsertArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4640 | neighbors=[index.d.ts]
 - "generated_client_index_d_workspaceupsertwithoutadminsinput": "WorkspaceUpsertWithoutAdminsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47075 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspaceupsertwithoutdoctorsinput": "WorkspaceUpsertWithoutDoctorsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47815 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspaceupsertwithoutinterpretationrulesinput": "WorkspaceUpsertWithoutInterpretationRulesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51374 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspaceupsertwithoutparametersinput": "WorkspaceUpsertWithoutParametersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49362 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspaceupsertwithoutpdfsettinginput": "WorkspaceUpsertWithoutPdfSettingInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51712 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspaceupsertwithoutregistrationsinput": "WorkspaceUpsertWithoutRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48715 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspaceupsertwithouttestformulasinput": "WorkspaceUpsertWithoutTestFormulasInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50980 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspaceupsertwithouttestparametersinput": "WorkspaceUpsertWithoutTestParametersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49679 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspaceupsertwithouttestsinput": "WorkspaceUpsertWithoutTestsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48205 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspaceupsertwithoutusersinput": "WorkspaceUpsertWithoutUsersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46472 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacewhereinput": "WorkspaceWhereInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34480 | neighbors=[index.d.ts]
-- "generated_client_index_d_workspacewhereuniqueinput": "WorkspaceWhereUniqueInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34527 | neighbors=[index.d.ts]
-- "generated_client_index_d_xor": "XOR" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L795 | neighbors=[index.d.ts]
-- "generated_client_index_fs": "fs" | kind=code-symbol | source=scratch/generated-client/index.js:L625 | neighbors=[index.js]
-- "generated_client_index_path": "path" | kind=code-symbol | source=scratch/generated-client/index.js:L82 | neighbors=[index.js]
-- "generated_client_index_prisma": "Prisma" | kind=code-symbol | source=scratch/generated-client/index.js:L29 | neighbors=[index.js]
-- "generated_client_index_prismaclient": "PrismaClient" | kind=code-symbol | source=scratch/generated-client/index.js:L654 | neighbors=[index.js]
-- "generated_client_index_prismaclientknownrequesterror_prismaclientunknownrequesterror_prismaclientrustpanicerror_prismaclientinitializationerror_prismaclientvalidationerror_notfounderror_getprismaclient_sqltag_empty_join_raw_skip_decimal_debug_objectenumvalues_makestrictenum_extensions_warnonce_definedmmfproperty_public_getruntime": "{\n  PrismaClientKnownRequestError,\n  PrismaClientUnknownRequestError,\n  PrismaC…" | kind=code-symbol | source=scratch/generated-client/index.js:L4 | neighbors=[index.js]
-- "generated_client_index_warnenvconflicts": "{ warnEnvConflicts }" | kind=code-symbol | source=scratch/generated-client/index.js:L647 | neighbors=[index.js]
-- "generated_client_wasm_decimal_objectenumvalues_makestrictenum_public_getruntime_skip": "{\n  Decimal,\n  objectEnumValues,\n  makeStrictEnum,\n  Public,\n  getRuntime,\n  sk…" | kind=code-symbol | source=scratch/generated-client/wasm.js:L4 | neighbors=[wasm.js]
-- "generated_client_wasm_prisma": "Prisma" | kind=code-symbol | source=scratch/generated-client/wasm.js:L14 | neighbors=[wasm.js]
-- "generated_client_wasm_prismaclient_constructor": ".constructor()" | kind=code-symbol | source=scratch/generated-client/wasm.js:L608 | neighbors=[PrismaClient]
-- "google_route_post": "POST()" | kind=code-symbol | source=app/api/authas/google/route.js:L5 | neighbors=[route.js]
-- "hooks_useoffline_useoffline": "useOffline()" | kind=code-symbol | source=hooks/useOffline.js:L5 | neighbors=[useOffline.js]
-- "hooks_useofflinedata_useofflinedata": "useOfflineData()" | kind=code-symbol | source=hooks/useOfflineData.js:L7 | neighbors=[useOfflineData.js]
-- "id_route_delete": "DELETE()" | kind=code-symbol | source=app/api/registrations/[id]/route.js:L252 | neighbors=[route.js]
 
 ## Instructions
 

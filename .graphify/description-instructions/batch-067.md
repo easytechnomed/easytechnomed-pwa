@@ -1,4 +1,4 @@
-# Node Description Batch 68 of 150
+# Node Description Batch 68 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_doctorcountaggregateinputtype": "DoctorCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L14818 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcountaggregateoutputtype": "DoctorCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L14756 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcountargs": "DoctorCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L15030 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcountorderbyaggregateinput": "DoctorCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41265 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcountoutputtype": "DoctorCountOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3440 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcountoutputtypeargs": "DoctorCountOutputTypeArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54294 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcountoutputtypecountincentivehistoryargs": "DoctorCountOutputTypeCountIncentiveHistoryArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3480 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcountoutputtypecountregistrationsargs": "DoctorCountOutputTypeCountRegistrationsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3466 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcountoutputtypecountsecondregistrationsargs": "DoctorCountOutputTypeCountSecondRegistrationsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3473 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcountoutputtypedefaultargs": "DoctorCountOutputTypeDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3456 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcountoutputtypeselect": "DoctorCountOutputTypeSelect" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3446 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreateargs": "DoctorCreateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L15592 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreateinput": "DoctorCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L38187 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreatemanyargs": "DoctorCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L15610 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreatemanyinput": "DoctorCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L38261 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreatemanyworkspaceinput": "DoctorCreateManyWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51790 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreatemanyworkspaceinputenvelope": "DoctorCreateManyWorkspaceInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45227 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreatenestedmanywithoutworkspaceinput": "DoctorCreateNestedManyWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42744 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreatenestedonewithoutincentivehistoryinput": "DoctorCreateNestedOneWithoutIncentiveHistoryInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44803 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreatenestedonewithoutregistrationsinput": "DoctorCreateNestedOneWithoutRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44130 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreatenestedonewithoutsecondregistrationsinput": "DoctorCreateNestedOneWithoutSecondRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44136 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreateorconnectwithoutincentivehistoryinput": "DoctorCreateOrConnectWithoutIncentiveHistoryInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51615 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreateorconnectwithoutregistrationsinput": "DoctorCreateOrConnectWithoutRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48369 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreateorconnectwithoutsecondregistrationsinput": "DoctorCreateOrConnectWithoutSecondRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48409 | neighbors=[index.d.ts]
+- "generated_client_index_d_doctorcreateorconnectwithoutworkspaceinput": "DoctorCreateOrConnectWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45222 | neighbors=[index.d.ts]
 - "generated_client_index_d_doctorcreatewithoutincentivehistoryinput": "DoctorCreateWithoutIncentiveHistoryInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51580 | neighbors=[index.d.ts]
 - "generated_client_index_d_doctorcreatewithoutregistrationsinput": "DoctorCreateWithoutRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48334 | neighbors=[index.d.ts]
 - "generated_client_index_d_doctorcreatewithoutsecondregistrationsinput": "DoctorCreateWithoutSecondRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48374 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_doctorfinduniqueargs": "DoctorFindUniqueArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L15417 | neighbors=[index.d.ts]
 - "generated_client_index_d_doctorfinduniqueorthrowargs": "DoctorFindUniqueOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L15435 | neighbors=[index.d.ts]
 - "generated_client_index_d_doctorgetpayload": "DoctorGetPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L15028 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorgroupbyargs": "DoctorGroupByArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L14907 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorgroupbyoutputtype": "DoctorGroupByOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L14921 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentive": "DoctorIncentive" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L155 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentiveaggregateargs": "DoctorIncentiveAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31787 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentiveargs": "DoctorIncentiveArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54426 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentiveavgaggregateinputtype": "DoctorIncentiveAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31753 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentiveavgaggregateoutputtype": "DoctorIncentiveAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31718 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentiveavgorderbyaggregateinput": "DoctorIncentiveAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42570 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecountaggregateinputtype": "DoctorIncentiveCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31779 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecountaggregateoutputtype": "DoctorIncentiveCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31744 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecountargs": "DoctorIncentiveCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31935 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecountorderbyaggregateinput": "DoctorIncentiveCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42563 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecreateargs": "DoctorIncentiveCreateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L32485 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecreateinput": "DoctorIncentiveCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40074 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecreatemanyargs": "DoctorIncentiveCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L32503 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecreatemanydoctorinput": "DoctorIncentiveCreateManyDoctorInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L53291 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecreatemanydoctorinputenvelope": "DoctorIncentiveCreateManyDoctorInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47810 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecreatemanyinput": "DoctorIncentiveCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40100 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecreatenestedmanywithoutdoctorinput": "DoctorIncentiveCreateNestedManyWithoutDoctorInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43785 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecreateorconnectwithoutdoctorinput": "DoctorIncentiveCreateOrConnectWithoutDoctorInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47805 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivecreatewithoutdoctorinput": "DoctorIncentiveCreateWithoutDoctorInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47794 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivedefaultargs": "DoctorIncentiveDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L32604 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivedelegate": "DoctorIncentiveDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31940 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivedeleteargs": "DoctorIncentiveDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L32576 | neighbors=[index.d.ts]
-- "generated_client_index_d_doctorincentivedeletemanyargs": "DoctorIncentiveDeleteManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L32594 | neighbors=[index.d.ts]
 
 ## Instructions
 

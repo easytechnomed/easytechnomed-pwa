@@ -1,4 +1,4 @@
-# Node Description Batch 76 of 150
+# Node Description Batch 76 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_interpretationruleuncheckedcreatenestedmanywithouttestinput": "InterpretationRuleUncheckedCreateNestedManyWithoutTestInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43976 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedcreatenestedmanywithoutworkspaceinput": "InterpretationRuleUncheckedCreateNestedManyWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42862 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedcreatewithoutparameterinput": "InterpretationRuleUncheckedCreateWithoutParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49342 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedcreatewithouttestinput": "InterpretationRuleUncheckedCreateWithoutTestInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48126 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedcreatewithoutworkspaceinput": "InterpretationRuleUncheckedCreateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45629 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedupdateinput": "InterpretationRuleUncheckedUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40034 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedupdatemanyinput": "InterpretationRuleUncheckedUpdateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40063 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedupdatemanywithoutparameterinput": "InterpretationRuleUncheckedUpdateManyWithoutParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54114 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedupdatemanywithoutparameternestedinput": "InterpretationRuleUncheckedUpdateManyWithoutParameterNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44485 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedupdatemanywithouttestinput": "InterpretationRuleUncheckedUpdateManyWithoutTestInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L53801 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedupdatemanywithouttestnestedinput": "InterpretationRuleUncheckedUpdateManyWithoutTestNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44109 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedupdatemanywithoutworkspaceinput": "InterpretationRuleUncheckedUpdateManyWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52607 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedupdatemanywithoutworkspacenestedinput": "InterpretationRuleUncheckedUpdateManyWithoutWorkspaceNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43147 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedupdatewithoutparameterinput": "InterpretationRuleUncheckedUpdateWithoutParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54104 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedupdatewithouttestinput": "InterpretationRuleUncheckedUpdateWithoutTestInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L53791 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleuncheckedupdatewithoutworkspaceinput": "InterpretationRuleUncheckedUpdateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52597 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleupdateargs": "InterpretationRuleUpdateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31589 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleupdateinput": "InterpretationRuleUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40024 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleupdatemanyargs": "InterpretationRuleUpdateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31611 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleupdatemanymutationinput": "InterpretationRuleUpdateManyMutationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40056 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleupdatemanywithoutparameternestedinput": "InterpretationRuleUpdateManyWithoutParameterNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44443 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleupdatemanywithouttestnestedinput": "InterpretationRuleUpdateManyWithoutTestNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44053 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleupdatemanywithoutworkspacenestedinput": "InterpretationRuleUpdateManyWithoutWorkspaceNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43011 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleupdatemanywithwherewithoutparameterinput": "InterpretationRuleUpdateManyWithWhereWithoutParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49457 | neighbors=[index.d.ts]
+- "generated_client_index_d_interpretationruleupdatemanywithwherewithouttestinput": "InterpretationRuleUpdateManyWithWhereWithoutTestInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48300 | neighbors=[index.d.ts]
 - "generated_client_index_d_interpretationruleupdatemanywithwherewithoutworkspaceinput": "InterpretationRuleUpdateManyWithWhereWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46090 | neighbors=[index.d.ts]
 - "generated_client_index_d_interpretationruleupdatewithoutparameterinput": "InterpretationRuleUpdateWithoutParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54095 | neighbors=[index.d.ts]
 - "generated_client_index_d_interpretationruleupdatewithouttestinput": "InterpretationRuleUpdateWithoutTestInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L53782 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_interpretationrulewhereuniqueinput": "InterpretationRuleWhereUniqueInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36995 | neighbors=[index.d.ts]
 - "generated_client_index_d_intersectof": "IntersectOf" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L859 | neighbors=[index.d.ts]
 - "generated_client_index_d_intfieldrefinput": "IntFieldRefInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34438 | neighbors=[index.d.ts]
-- "generated_client_index_d_intfieldupdateoperationsinput": "IntFieldUpdateOperationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42891 | neighbors=[index.d.ts]
-- "generated_client_index_d_intfilter": "IntFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40367 | neighbors=[index.d.ts]
-- "generated_client_index_d_intnullablefilter": "IntNullableFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40765 | neighbors=[index.d.ts]
-- "generated_client_index_d_intnullablewithaggregatesfilter": "IntNullableWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40868 | neighbors=[index.d.ts]
-- "generated_client_index_d_intwithaggregatesfilter": "IntWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40565 | neighbors=[index.d.ts]
-- "generated_client_index_d_isobject": "IsObject" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L805 | neighbors=[index.d.ts]
-- "generated_client_index_d_jsonnull": "JsonNull" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L679 | neighbors=[index.d.ts]
-- "generated_client_index_d_key": "Key" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L873 | neighbors=[index.d.ts]
-- "generated_client_index_d_keys": "Keys" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L952 | neighbors=[index.d.ts]
-- "generated_client_index_d_lead": "Lead" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L110 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadaggregateargs": "LeadAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23175 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadargs": "LeadArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54390 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadavgaggregateinputtype": "LeadAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23145 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadavgaggregateoutputtype": "LeadAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23114 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadavgorderbyaggregateinput": "LeadAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42147 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadcontact": "LeadContact" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L125 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadcontactaggregateargs": "LeadContactAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26016 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadcontactargs": "LeadContactArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54402 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadcontactavgaggregateinputtype": "LeadContactAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25971 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadcontactavgaggregateoutputtype": "LeadContactAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25925 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadcontactavgorderbyaggregateinput": "LeadContactAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42285 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadcontactcountaggregateinputtype": "LeadContactCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26003 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadcontactcountaggregateoutputtype": "LeadContactCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25957 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadcontactcountargs": "LeadContactCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26178 | neighbors=[index.d.ts]
-- "generated_client_index_d_leadcontactcountorderbyaggregateinput": "LeadContactCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42273 | neighbors=[index.d.ts]
 
 ## Instructions
 

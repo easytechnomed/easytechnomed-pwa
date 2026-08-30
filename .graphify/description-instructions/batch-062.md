@@ -1,4 +1,4 @@
-# Node Description Batch 63 of 150
+# Node Description Batch 63 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_adminsumaggregateinputtype": "AdminSumAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10787 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminsumaggregateoutputtype": "AdminSumAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10688 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminsumorderbyaggregateinput": "AdminSumOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41114 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintracking": "AdminTracking" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L130 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintracking_adminargs": "AdminTracking$adminArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27776 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingaggregateargs": "AdminTrackingAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26934 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingargs": "AdminTrackingArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54406 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingavgaggregateinputtype": "AdminTrackingAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26885 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingavgaggregateoutputtype": "AdminTrackingAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26835 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingavgorderbyaggregateinput": "AdminTrackingAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42329 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcountaggregateinputtype": "AdminTrackingCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26921 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcountaggregateoutputtype": "AdminTrackingCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26871 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcountargs": "AdminTrackingCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27102 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcountorderbyaggregateinput": "AdminTrackingCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42317 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcreateargs": "AdminTrackingCreateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27657 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcreateinput": "AdminTrackingCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39701 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcreatemanyadmininput": "AdminTrackingCreateManyAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52835 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcreatemanyadmininputenvelope": "AdminTrackingCreateManyAdminInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46945 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcreatemanyargs": "AdminTrackingCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27675 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcreatemanyinput": "AdminTrackingCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39747 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcreatenestedmanywithoutadmininput": "AdminTrackingCreateNestedManyWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43490 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcreateorconnectwithoutadmininput": "AdminTrackingCreateOrConnectWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46940 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingcreatewithoutadmininput": "AdminTrackingCreateWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46919 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingdefaultargs": "AdminTrackingDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27791 | neighbors=[index.d.ts]
+- "generated_client_index_d_admintrackingdelegate": "AdminTrackingDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27107 | neighbors=[index.d.ts]
 - "generated_client_index_d_admintrackingdeleteargs": "AdminTrackingDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27748 | neighbors=[index.d.ts]
 - "generated_client_index_d_admintrackingdeletemanyargs": "AdminTrackingDeleteManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27766 | neighbors=[index.d.ts]
 - "generated_client_index_d_admintrackingfieldrefs": "AdminTrackingFieldRefs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27465 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_admintrackinglistrelationfilter": "AdminTrackingListRelationFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41011 | neighbors=[index.d.ts]
 - "generated_client_index_d_admintrackingmaxaggregateinputtype": "AdminTrackingMaxAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26909 | neighbors=[index.d.ts]
 - "generated_client_index_d_admintrackingmaxaggregateoutputtype": "AdminTrackingMaxAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26859 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingmaxorderbyaggregateinput": "AdminTrackingMaxOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42335 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingminaggregateinputtype": "AdminTrackingMinAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26897 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingminaggregateoutputtype": "AdminTrackingMinAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26847 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingminorderbyaggregateinput": "AdminTrackingMinOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42347 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingorderbyrelationaggregateinput": "AdminTrackingOrderByRelationAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41021 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingorderbywithaggregationinput": "AdminTrackingOrderByWithAggregationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36709 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingorderbywithrelationinput": "AdminTrackingOrderByWithRelationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36680 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingpayload": "$AdminTrackingPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27081 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingscalarfieldenum": "AdminTrackingScalarFieldEnum" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34306 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingscalarwhereinput": "AdminTrackingScalarWhereInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47210 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingscalarwherewithaggregatesinput": "AdminTrackingScalarWhereWithAggregatesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36726 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingselect": "AdminTrackingSelect" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27051 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingselectscalar": "AdminTrackingSelectScalar" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27065 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingsumaggregateinputtype": "AdminTrackingSumAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26891 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingsumaggregateoutputtype": "AdminTrackingSumAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26841 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingsumorderbyaggregateinput": "AdminTrackingSumOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42359 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackinguncheckedcreateinput": "AdminTrackingUncheckedCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39712 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackinguncheckedcreatenestedmanywithoutadmininput": "AdminTrackingUncheckedCreateNestedManyWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43517 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackinguncheckedcreatewithoutadmininput": "AdminTrackingUncheckedCreateWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46929 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackinguncheckedupdateinput": "AdminTrackingUncheckedUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39735 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackinguncheckedupdatemanyinput": "AdminTrackingUncheckedUpdateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39769 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackinguncheckedupdatemanywithoutadmininput": "AdminTrackingUncheckedUpdateManyWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52935 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackinguncheckedupdatemanywithoutadminnestedinput": "AdminTrackingUncheckedUpdateManyWithoutAdminNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43625 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackinguncheckedupdatewithoutadmininput": "AdminTrackingUncheckedUpdateWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52924 | neighbors=[index.d.ts]
-- "generated_client_index_d_admintrackingupdateargs": "AdminTrackingUpdateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27686 | neighbors=[index.d.ts]
 
 ## Instructions
 

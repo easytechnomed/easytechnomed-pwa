@@ -17,12 +17,6 @@ export default function manifest() {
         purpose: "any",
       },
       {
-        src: "/android-chrome-512x512.png",
-        sizes: "512x512",
-        type: "image/png",
-        purpose: "any",
-      },
-      {
         src: "/android-chrome-192x192.png",
         sizes: "192x192",
         type: "image/png",
@@ -32,12 +26,13 @@ export default function manifest() {
         src: "/android-chrome-512x512.png",
         sizes: "512x512",
         type: "image/png",
-        purpose: "maskable",
+        purpose: "any",
       },
       {
-        src: "/apple-touch-icon.png",
-        sizes: "180x180",
+        src: "/android-chrome-512x512.png",
+        sizes: "512x512",
         type: "image/png",
+        purpose: "maskable",
       },
     ],
     shortcuts: [

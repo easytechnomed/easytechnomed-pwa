@@ -1,4 +1,4 @@
-# Node Description Batch 79 of 150
+# Node Description Batch 79 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_leadfieldrefs": "LeadFieldRefs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23679 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadfindfirstargs": "LeadFindFirstArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23719 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadfindfirstorthrowargs": "LeadFindFirstOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23763 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadfindmanyargs": "LeadFindManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23807 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadfinduniqueargs": "LeadFindUniqueArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23691 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadfinduniqueorthrowargs": "LeadFindUniqueOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23705 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadgetpayload": "LeadGetPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23315 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadgroupbyargs": "LeadGroupByArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23247 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadgroupbyoutputtype": "LeadGroupByOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23261 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadmaxaggregateinputtype": "LeadMaxAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23160 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadmaxaggregateoutputtype": "LeadMaxAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23129 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadmaxorderbyaggregateinput": "LeadMaxOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42151 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadminaggregateinputtype": "LeadMinAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23153 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadminaggregateoutputtype": "LeadMinAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23122 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadminorderbyaggregateinput": "LeadMinOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42158 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadorderbywithaggregationinput": "LeadOrderByWithAggregationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36404 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadorderbywithrelationinput": "LeadOrderByWithRelationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36387 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadpayload": "$LeadPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23303 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadscalarfieldenum": "LeadScalarFieldEnum" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34244 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadscalarwherewithaggregatesinput": "LeadScalarWhereWithAggregatesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36416 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadselect": "LeadSelect" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23287 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadselectscalar": "LeadSelectScalar" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23295 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadsumaggregateinputtype": "LeadSumAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23149 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadsumaggregateoutputtype": "LeadSumAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23118 | neighbors=[index.d.ts]
+- "generated_client_index_d_leadsumorderbyaggregateinput": "LeadSumOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42165 | neighbors=[index.d.ts]
 - "generated_client_index_d_leaduncheckedcreateinput": "LeadUncheckedCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39406 | neighbors=[index.d.ts]
 - "generated_client_index_d_leaduncheckedupdateinput": "LeadUncheckedUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39419 | neighbors=[index.d.ts]
 - "generated_client_index_d_leaduncheckedupdatemanyinput": "LeadUncheckedUpdateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39439 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_loglevel": "LogLevel" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3048 | neighbors=[index.d.ts]
 - "generated_client_index_d_maybetupletounion": "MaybeTupleToUnion" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L996 | neighbors=[index.d.ts]
 - "generated_client_index_d_merge": "_Merge" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L869 | neighbors=[index.d.ts]
-- "generated_client_index_d_metric": "Metric" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L618 | neighbors=[index.d.ts]
-- "generated_client_index_d_metrichistogram": "MetricHistogram" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L619 | neighbors=[index.d.ts]
-- "generated_client_index_d_metrichistogrambucket": "MetricHistogramBucket" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L620 | neighbors=[index.d.ts]
-- "generated_client_index_d_metrics": "Metrics" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L617 | neighbors=[index.d.ts]
-- "generated_client_index_d_middleware": "Middleware" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3111 | neighbors=[index.d.ts]
-- "generated_client_index_d_middlewareparams": "MiddlewareParams" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3100 | neighbors=[index.d.ts]
-- "generated_client_index_d_modelname": "ModelName" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L1046 | neighbors=[index.d.ts]
-- "generated_client_index_d_nestedboolfilter": "NestedBoolFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44856 | neighbors=[index.d.ts]
-- "generated_client_index_d_nestedboolwithaggregatesfilter": "NestedBoolWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44927 | neighbors=[index.d.ts]
-- "generated_client_index_d_nesteddatetimefilter": "NestedDateTimeFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44861 | neighbors=[index.d.ts]
-- "generated_client_index_d_nesteddatetimenullablefilter": "NestedDateTimeNullableFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44872 | neighbors=[index.d.ts]
-- "generated_client_index_d_nesteddatetimenullablewithaggregatesfilter": "NestedDateTimeNullableWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44949 | neighbors=[index.d.ts]
-- "generated_client_index_d_nesteddatetimewithaggregatesfilter": "NestedDateTimeWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44935 | neighbors=[index.d.ts]
-- "generated_client_index_d_nesteddecimalfilter": "NestedDecimalFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45032 | neighbors=[index.d.ts]
-- "generated_client_index_d_nesteddecimalnullablefilter": "NestedDecimalNullableFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45059 | neighbors=[index.d.ts]
-- "generated_client_index_d_nesteddecimalnullablewithaggregatesfilter": "NestedDecimalNullableWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45070 | neighbors=[index.d.ts]
-- "generated_client_index_d_nesteddecimalwithaggregatesfilter": "NestedDecimalWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45043 | neighbors=[index.d.ts]
-- "generated_client_index_d_nestedfloatfilter": "NestedFloatFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44899 | neighbors=[index.d.ts]
-- "generated_client_index_d_nestedfloatnullablefilter": "NestedFloatNullableFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45021 | neighbors=[index.d.ts]
-- "generated_client_index_d_nestedfloatnullablewithaggregatesfilter": "NestedFloatNullableWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45102 | neighbors=[index.d.ts]
-- "generated_client_index_d_nestedfloatwithaggregatesfilter": "NestedFloatWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45086 | neighbors=[index.d.ts]
-- "generated_client_index_d_nestedintfilter": "NestedIntFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44831 | neighbors=[index.d.ts]
-- "generated_client_index_d_nestedintnullablefilter": "NestedIntNullableFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44963 | neighbors=[index.d.ts]
-- "generated_client_index_d_nestedintnullablewithaggregatesfilter": "NestedIntNullableWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45005 | neighbors=[index.d.ts]
-- "generated_client_index_d_nestedintwithaggregatesfilter": "NestedIntWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44883 | neighbors=[index.d.ts]
 
 ## Instructions
 

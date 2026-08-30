@@ -1,4 +1,4 @@
-# Node Description Batch 88 of 150
+# Node Description Batch 88 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_registrationcreatenestedmanywithoutworkspaceinput": "RegistrationCreateNestedManyWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42751 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreatenestedonewithoutpaymentsinput": "RegistrationCreateNestedOneWithoutPaymentsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44627 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreatenestedonewithoutresultsinput": "RegistrationCreateNestedOneWithoutResultsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44585 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreatenestedonewithouttestsinput": "RegistrationCreateNestedOneWithoutTestsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44321 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreateorconnectwithoutadmininput": "RegistrationCreateOrConnectWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47039 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreateorconnectwithoutpaymentsinput": "RegistrationCreateOrConnectWithoutPaymentsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50420 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreateorconnectwithoutrefbyinput": "RegistrationCreateOrConnectWithoutRefByInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47685 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreateorconnectwithoutresultsinput": "RegistrationCreateOrConnectWithoutResultsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49990 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreateorconnectwithoutsecondrefinput": "RegistrationCreateOrConnectWithoutSecondRefInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47784 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreateorconnectwithouttestsinput": "RegistrationCreateOrConnectWithoutTestsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48972 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreateorconnectwithoutworkspaceinput": "RegistrationCreateOrConnectWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45321 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreatewithoutadmininput": "RegistrationCreateWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46950 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreatewithoutpaymentsinput": "RegistrationCreateWithoutPaymentsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50331 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreatewithoutrefbyinput": "RegistrationCreateWithoutRefByInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47596 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreatewithoutresultsinput": "RegistrationCreateWithoutResultsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49901 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreatewithoutsecondrefinput": "RegistrationCreateWithoutSecondRefInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47695 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreatewithouttestsinput": "RegistrationCreateWithoutTestsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48883 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationcreatewithoutworkspaceinput": "RegistrationCreateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45232 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationdefaultargs": "RegistrationDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18551 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationdelegate": "RegistrationDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L17725 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationdeleteargs": "RegistrationDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18403 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationdeletemanyargs": "RegistrationDeleteManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18421 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationfieldrefs": "RegistrationFieldRefs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18089 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationfindfirstargs": "RegistrationFindFirstArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18173 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationfindfirstorthrowargs": "RegistrationFindFirstOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18221 | neighbors=[index.d.ts]
 - "generated_client_index_d_registrationfindmanyargs": "RegistrationFindManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18269 | neighbors=[index.d.ts]
 - "generated_client_index_d_registrationfinduniqueargs": "RegistrationFindUniqueArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18137 | neighbors=[index.d.ts]
 - "generated_client_index_d_registrationfinduniqueorthrowargs": "RegistrationFindUniqueOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18155 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_registrationminaggregateoutputtype": "RegistrationMinAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L17111 | neighbors=[index.d.ts]
 - "generated_client_index_d_registrationminorderbyaggregateinput": "RegistrationMinOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41640 | neighbors=[index.d.ts]
 - "generated_client_index_d_registrationorderbyrelationaggregateinput": "RegistrationOrderByRelationAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40491 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationorderbywithaggregationinput": "RegistrationOrderByWithAggregationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L35753 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationorderbywithrelationinput": "RegistrationOrderByWithRelationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L35649 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpayload": "$RegistrationPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L17662 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpayment": "RegistrationPayment" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L120 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentaggregateargs": "RegistrationPaymentAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25064 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentargs": "RegistrationPaymentArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54398 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentavgaggregateinputtype": "RegistrationPaymentAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25018 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentavgaggregateoutputtype": "RegistrationPaymentAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24971 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentavgorderbyaggregateinput": "RegistrationPaymentAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42239 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcountaggregateinputtype": "RegistrationPaymentCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25052 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcountaggregateoutputtype": "RegistrationPaymentCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25005 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcountargs": "RegistrationPaymentCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25228 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcountorderbyaggregateinput": "RegistrationPaymentCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42228 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcreateargs": "RegistrationPaymentCreateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25782 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcreateinput": "RegistrationPaymentCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39547 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcreatemanyargs": "RegistrationPaymentCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25800 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcreatemanyinput": "RegistrationPaymentCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39589 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcreatemanyregistrationinput": "RegistrationPaymentCreateManyRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L53821 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcreatemanyregistrationinputenvelope": "RegistrationPaymentCreateManyRegistrationInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48548 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcreatenestedmanywithoutregistrationinput": "RegistrationPaymentCreateNestedManyWithoutRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44154 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcreateorconnectwithoutregistrationinput": "RegistrationPaymentCreateOrConnectWithoutRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48543 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentcreatewithoutregistrationinput": "RegistrationPaymentCreateWithoutRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48524 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentdefaultargs": "RegistrationPaymentDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25901 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentdelegate": "RegistrationPaymentDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25233 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationpaymentdeleteargs": "RegistrationPaymentDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25873 | neighbors=[index.d.ts]
 
 ## Instructions
 

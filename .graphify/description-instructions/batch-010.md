@@ -1,4 +1,4 @@
-# Node Description Batch 11 of 150
+# Node Description Batch 11 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,28 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "runtime_edge_ru": "ru()" | kind=code-symbol | source=scratch/generated-client/runtime/edge.js:L1 | neighbors=[edge.js, addErrorMessage(), asObject(), getDeepFieldValue(), getDeepSubSelectionValue(), markAsError()]
+- "runtime_edge_sa": "Sa()" | kind=code-symbol | source=scratch/generated-client/runtime/edge.js:L1 | neighbors=[edge.js, Ba(), hi(), La(), Na(), qa()]
+- "runtime_edge_tu": "tu()" | kind=code-symbol | source=scratch/generated-client/runtime/edge.js:L1 | neighbors=[edge.js, addErrorMessage(), asObject(), getDeepSubSelectionValue(), getField(), markAsError()]
+- "runtime_edge_u": "u()" | kind=code-symbol | source=scratch/generated-client/runtime/edge.js:L1 | neighbors=[edge.js, g(), getSelectionPath(), Gu(), isPreviewFeatureOn(), throwValidationError()]
+- "runtime_edge_vt": "Vt()" | kind=code-symbol | source=scratch/generated-client/runtime/edge.js:L5 | neighbors=[edge.js, Gu(), ju(), qr(), isPreviewFeatureOn(), Uo()]
+- "runtime_edge_we": "we()" | kind=code-symbol | source=scratch/generated-client/runtime/edge.js:L5 | neighbors=[edge.js, Gu(), ju(), ps(), qu(), Uo()]
+- "runtime_edge_withindent": "withIndent()" | kind=code-symbol | source=scratch/generated-client/runtime/edge.js:L2 | neighbors=[edge.js, indent(), unindent(), write(), writeWithContents(), writeWithItems()]
+- "runtime_edge_xe": "xe()" | kind=code-symbol | source=scratch/generated-client/runtime/edge.js:L1 | neighbors=[edge.js, Aa(), on(), rn(), Ta(), va()]
+- "runtime_library_dp": "dp()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L21 | neighbors=[library.js, addErrorMessage(), addSuggestion(), Fe(), removeAllFields(), wt()]
+- "runtime_library_ed": "ed()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L29 | neighbors=[library.js, getSelectionPath(), isPreviewFeatureOn(), td(), throwValidationError(), mr()]
+- "runtime_library_en": "en()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L21 | neighbors=[library.js, renderAllMessages(), toString(), write(), Si(), Tc()]
+- "runtime_library_fu": "Fu()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L4 | neighbors=[library.js, mt(), otherwise(), when(), with(), Lu()]
+- "runtime_library_getdeepfield": "getDeepField()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L27 | neighbors=[library.js, Bp(), getField(), getDeepFieldValue(), om(), _p()]
+- "runtime_library_getdeepselectionparent": "getDeepSelectionParent()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L27 | neighbors=[library.js, Fp(), getFieldValue(), getSelectionParent(), op(), _p()]
+- "runtime_library_getglobaltracinghelper": "getGlobalTracingHelper()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L121 | neighbors=[library.js, createEngineSpan(), getActiveContext(), getTraceParent(), isEnabled(), runInChildSpan()]
+- "runtime_library_getorcreate": "getOrCreate()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L29 | neighbors=[library.js, getAllComputedFields(), getAllModelExtensions(), getAllQueryCallbacks(), get(), r()]
+- "runtime_library_he": "He()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L21 | neighbors=[library.js, K(), nn(), rr(), slice(), y()]
+- "runtime_library_instantiatelibrary": "instantiateLibrary()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L111 | neighbors=[library.js, constructor(), getCurrentBinaryTarget(), loadEngine(), Qn(), version()]
+- "runtime_library_ip": "ip()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L21 | neighbors=[library.js, addErrorMessage(), asObject(), getDeepSubSelectionValue(), getField(), markAsError()]
+- "runtime_library_ir": "ir()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L28 | neighbors=[library.js, Fp(), Hs(), op(), _p(), qp()]
+- "runtime_library_ispreviewfeatureon": "isPreviewFeatureOn()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L29 | neighbors=[library.js, aa(), ed(), I(), mr(), td()]
+- "runtime_library_ji": "ji()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L29 | neighbors=[library.js, getAllModelExtensions(), gr(), qd(), Se(), Vd()]
 - "runtime_library_mo": "Mo()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L5 | neighbors=[library.js, ju(), Lo(), Vu(), nt(), Yn()]
 - "runtime_library_nestselection": "nestSelection()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L29 | neighbors=[library.js, id(), nd(), e(), findField(), rd()]
 - "runtime_library_oa": "Oa()" | kind=code-symbol | source=scratch/generated-client/runtime/library.js:L31 | neighbors=[library.js, Gd(), getAllComputedFields(), Se(), Ud(), values()]
@@ -35,28 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "runtime_react_native_getglobaltracinghelper": "getGlobalTracingHelper()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L69 | neighbors=[react-native.js, createEngineSpan(), getActiveContext(), getTraceParent(), isEnabled(), runInChildSpan()]
 - "runtime_react_native_getorcreate": "getOrCreate()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L10 | neighbors=[react-native.js, getAllComputedFields(), getAllModelExtensions(), getAllQueryCallbacks(), get(), r()]
 - "runtime_react_native_hr": "Hr()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L1 | neighbors=[react-native.js, Oe(), ri(), toString(), zr(), T()]
-- "runtime_react_native_ic": "ic()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L10 | neighbors=[react-native.js, isPreviewFeatureOn(), isRawAction(), oc(), sc(), nc()]
-- "runtime_react_native_ispreviewfeatureon": "isPreviewFeatureOn()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L10 | neighbors=[react-native.js, Cn(), ic(), Mo(), nc(), Wt()]
-- "runtime_react_native_logger": "logger()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L60 | neighbors=[react-native.js, createEngineSpan(), emit(), ep(), parseEngineResponse(), tp()]
-- "runtime_react_native_nestselection": "nestSelection()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L10 | neighbors=[react-native.js, ac(), e(), findField(), oc(), sc()]
-- "runtime_react_native_nr": "nr()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L1 | neighbors=[react-native.js, Aa(), Ca(), wc(), Pa(), Ta()]
-- "runtime_react_native_oe": "Oe()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L1 | neighbors=[react-native.js, ba(), ha(), Hr(), Wr(), ya()]
-- "runtime_react_native_parseengineresponse": "parseEngineResponse()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L60 | neighbors=[react-native.js, logger(), metrics(), request(), requestBatch(), transaction()]
-- "runtime_react_native_po": "po()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L7 | neighbors=[react-native.js, br(), addErrorMessage(), addField(), fo(), ku()]
-- "runtime_react_native_requestbatch": "requestBatch()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L61 | neighbors=[react-native.js, buildQueryError(), Lr(), parseEngineResponse(), query(), start()]
-- "runtime_react_native_rl": "Rl()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L2 | neighbors=[react-native.js, mr(), slice(), ur(), wn(), Zi()]
-- "runtime_react_native_rr": "Rr()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L10 | neighbors=[react-native.js, hp(), renderAllMessages(), toString(), write(), Sr()]
-- "runtime_react_native_withindent": "withIndent()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L7 | neighbors=[react-native.js, indent(), unindent(), write(), writeWithContents(), writeWithItems()]
-- "runtime_react_native_wo": "wo()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L9 | neighbors=[react-native.js, nu(), u(), addSuggestion(), _c(), hasField()]
-- "runtime_react_native_ya": "ya()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L1 | neighbors=[react-native.js, ti(), ii(), Oe(), slice(), write()]
-- "runtime_react_native_yt": "Yt()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L12 | neighbors=[react-native.js, rs(), Ae(), Gc(), getAllClientExtensions(), Ht()]
-- "runtime_react_native_zt": "Zt()" | kind=code-symbol | source=scratch/generated-client/runtime/react-native.js:L12 | neighbors=[react-native.js, ss(), at(), Fe(), lt(), slice()]
-- "runtime_wasm_be": "be()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, t(), Ct(), es(), shouldApplyGlobalOmit(), za()]
-- "runtime_wasm_ci": "ci()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, toString(), values(), write(), Ye(), oa()]
-- "runtime_wasm_d": "D()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, cn(), It(), mn(), un(), yr()]
-- "runtime_wasm_getdeepfield": "getDeepField()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L3 | neighbors=[wasm.js, Bs(), getField(), getDeepFieldValue(), nl(), qs()]
-- "runtime_wasm_getdeepselectionparent": "getDeepSelectionParent()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L3 | neighbors=[wasm.js, ds(), fs(), getFieldValue(), getSelectionParent(), Is()]
-- "runtime_wasm_getglobaltracinghelper": "getGlobalTracingHelper()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L21 | neighbors=[wasm.js, createEngineSpan(), getActiveContext(), getTraceParent(), isEnabled(), runInChildSpan()]
 
 ## Instructions
 

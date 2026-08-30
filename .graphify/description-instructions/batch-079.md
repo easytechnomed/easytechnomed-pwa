@@ -1,4 +1,4 @@
-# Node Description Batch 80 of 150
+# Node Description Batch 80 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_metric": "Metric" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L618 | neighbors=[index.d.ts]
+- "generated_client_index_d_metrichistogram": "MetricHistogram" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L619 | neighbors=[index.d.ts]
+- "generated_client_index_d_metrichistogrambucket": "MetricHistogramBucket" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L620 | neighbors=[index.d.ts]
+- "generated_client_index_d_metrics": "Metrics" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L617 | neighbors=[index.d.ts]
+- "generated_client_index_d_middleware": "Middleware" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3111 | neighbors=[index.d.ts]
+- "generated_client_index_d_middlewareparams": "MiddlewareParams" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3100 | neighbors=[index.d.ts]
+- "generated_client_index_d_modelname": "ModelName" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L1046 | neighbors=[index.d.ts]
+- "generated_client_index_d_nestedboolfilter": "NestedBoolFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44856 | neighbors=[index.d.ts]
+- "generated_client_index_d_nestedboolwithaggregatesfilter": "NestedBoolWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44927 | neighbors=[index.d.ts]
+- "generated_client_index_d_nesteddatetimefilter": "NestedDateTimeFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44861 | neighbors=[index.d.ts]
+- "generated_client_index_d_nesteddatetimenullablefilter": "NestedDateTimeNullableFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44872 | neighbors=[index.d.ts]
+- "generated_client_index_d_nesteddatetimenullablewithaggregatesfilter": "NestedDateTimeNullableWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44949 | neighbors=[index.d.ts]
+- "generated_client_index_d_nesteddatetimewithaggregatesfilter": "NestedDateTimeWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44935 | neighbors=[index.d.ts]
+- "generated_client_index_d_nesteddecimalfilter": "NestedDecimalFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45032 | neighbors=[index.d.ts]
+- "generated_client_index_d_nesteddecimalnullablefilter": "NestedDecimalNullableFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45059 | neighbors=[index.d.ts]
+- "generated_client_index_d_nesteddecimalnullablewithaggregatesfilter": "NestedDecimalNullableWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45070 | neighbors=[index.d.ts]
+- "generated_client_index_d_nesteddecimalwithaggregatesfilter": "NestedDecimalWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45043 | neighbors=[index.d.ts]
+- "generated_client_index_d_nestedfloatfilter": "NestedFloatFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44899 | neighbors=[index.d.ts]
+- "generated_client_index_d_nestedfloatnullablefilter": "NestedFloatNullableFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45021 | neighbors=[index.d.ts]
+- "generated_client_index_d_nestedfloatnullablewithaggregatesfilter": "NestedFloatNullableWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45102 | neighbors=[index.d.ts]
+- "generated_client_index_d_nestedfloatwithaggregatesfilter": "NestedFloatWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45086 | neighbors=[index.d.ts]
+- "generated_client_index_d_nestedintfilter": "NestedIntFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44831 | neighbors=[index.d.ts]
+- "generated_client_index_d_nestedintnullablefilter": "NestedIntNullableFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44963 | neighbors=[index.d.ts]
+- "generated_client_index_d_nestedintnullablewithaggregatesfilter": "NestedIntNullableWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45005 | neighbors=[index.d.ts]
+- "generated_client_index_d_nestedintwithaggregatesfilter": "NestedIntWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44883 | neighbors=[index.d.ts]
 - "generated_client_index_d_nestedstringfilter": "NestedStringFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44842 | neighbors=[index.d.ts]
 - "generated_client_index_d_nestedstringnullablefilter": "NestedStringNullableFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44974 | neighbors=[index.d.ts]
 - "generated_client_index_d_nestedstringnullablewithaggregatesfilter": "NestedStringNullableWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44988 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_optionalflat": "OptionalFlat" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L886 | neighbors=[index.d.ts]
 - "generated_client_index_d_or": "Or" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L941 | neighbors=[index.d.ts]
 - "generated_client_index_d_overwrite": "Overwrite" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L865 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameter": "Parameter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L95 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameter_interpretationrulesargs": "Parameter$interpretationRulesArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20972 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameter_testformulasargs": "Parameter$testFormulasArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20952 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameter_testmappingsargs": "Parameter$testMappingsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20932 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameter_workspaceargs": "Parameter$workspaceArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20917 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameteraggregateargs": "ParameterAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19931 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterargs": "ParameterArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54378 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameteravgaggregateinputtype": "ParameterAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19762 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameteravgaggregateoutputtype": "ParameterAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19592 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameteravgorderbyaggregateinput": "ParameterAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41848 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercountaggregateinputtype": "ParameterCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19892 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercountaggregateoutputtype": "ParameterCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19722 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercountargs": "ParameterCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20214 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercountorderbyaggregateinput": "ParameterCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41810 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercountoutputtype": "ParameterCountOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3596 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercountoutputtypeargs": "ParameterCountOutputTypeArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54306 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercountoutputtypecountinterpretationrulesargs": "ParameterCountOutputTypeCountInterpretationRulesArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3636 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercountoutputtypecounttestformulasargs": "ParameterCountOutputTypeCountTestFormulasArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3629 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercountoutputtypecounttestmappingsargs": "ParameterCountOutputTypeCountTestMappingsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3622 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercountoutputtypedefaultargs": "ParameterCountOutputTypeDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3612 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercountoutputtypeselect": "ParameterCountOutputTypeSelect" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3602 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercreateargs": "ParameterCreateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20798 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercreateinput": "ParameterCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L38902 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercreatemanyargs": "ParameterCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20816 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametercreatemanyinput": "ParameterCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39064 | neighbors=[index.d.ts]
 
 ## Instructions
 

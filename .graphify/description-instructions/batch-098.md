@@ -1,4 +1,4 @@
-# Node Description Batch 99 of 150
+# Node Description Batch 99 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_superadmintrackingcreateinput": "SuperAdminTrackingCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39781 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingcreatemanyargs": "SuperAdminTrackingCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28655 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingcreatemanyinput": "SuperAdminTrackingCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39827 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingcreatemanysuperadmininput": "SuperAdminTrackingCreateManySuperAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52626 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingcreatemanysuperadmininputenvelope": "SuperAdminTrackingCreateManySuperAdminInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46242 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingcreatenestedmanywithoutsuperadmininput": "SuperAdminTrackingCreateNestedManyWithoutSuperAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43178 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingcreateorconnectwithoutsuperadmininput": "SuperAdminTrackingCreateOrConnectWithoutSuperAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46237 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingcreatewithoutsuperadmininput": "SuperAdminTrackingCreateWithoutSuperAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46216 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingdefaultargs": "SuperAdminTrackingDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28771 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingdelegate": "SuperAdminTrackingDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28087 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingdeleteargs": "SuperAdminTrackingDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28728 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingdeletemanyargs": "SuperAdminTrackingDeleteManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28746 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingfieldrefs": "SuperAdminTrackingFieldRefs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28445 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingfindfirstargs": "SuperAdminTrackingFindFirstArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28498 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingfindfirstorthrowargs": "SuperAdminTrackingFindFirstOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28546 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingfindmanyargs": "SuperAdminTrackingFindManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28594 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingfinduniqueargs": "SuperAdminTrackingFindUniqueArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28462 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingfinduniqueorthrowargs": "SuperAdminTrackingFindUniqueOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28480 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackinggetpayload": "SuperAdminTrackingGetPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28080 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackinggroupbyargs": "SuperAdminTrackingGroupByArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27986 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackinggroupbyoutputtype": "SuperAdminTrackingGroupByOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28000 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackinginclude": "SuperAdminTrackingInclude" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28057 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackinglistrelationfilter": "SuperAdminTrackingListRelationFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40640 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingmaxaggregateinputtype": "SuperAdminTrackingMaxAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27889 | neighbors=[index.d.ts]
+- "generated_client_index_d_superadmintrackingmaxaggregateoutputtype": "SuperAdminTrackingMaxAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27839 | neighbors=[index.d.ts]
 - "generated_client_index_d_superadmintrackingmaxorderbyaggregateinput": "SuperAdminTrackingMaxOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42388 | neighbors=[index.d.ts]
 - "generated_client_index_d_superadmintrackingminaggregateinputtype": "SuperAdminTrackingMinAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27877 | neighbors=[index.d.ts]
 - "generated_client_index_d_superadmintrackingminaggregateoutputtype": "SuperAdminTrackingMinAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27827 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_superadmintrackingselectscalar": "SuperAdminTrackingSelectScalar" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28045 | neighbors=[index.d.ts]
 - "generated_client_index_d_superadmintrackingsumaggregateinputtype": "SuperAdminTrackingSumAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27871 | neighbors=[index.d.ts]
 - "generated_client_index_d_superadmintrackingsumaggregateoutputtype": "SuperAdminTrackingSumAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27821 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingsumorderbyaggregateinput": "SuperAdminTrackingSumOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42412 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackinguncheckedcreateinput": "SuperAdminTrackingUncheckedCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39792 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackinguncheckedcreatenestedmanywithoutsuperadmininput": "SuperAdminTrackingUncheckedCreateNestedManyWithoutSuperAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43192 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackinguncheckedcreatewithoutsuperadmininput": "SuperAdminTrackingUncheckedCreateWithoutSuperAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46226 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackinguncheckedupdateinput": "SuperAdminTrackingUncheckedUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39815 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackinguncheckedupdatemanyinput": "SuperAdminTrackingUncheckedUpdateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39849 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackinguncheckedupdatemanywithoutsuperadmininput": "SuperAdminTrackingUncheckedUpdateManyWithoutSuperAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52684 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackinguncheckedupdatemanywithoutsuperadminnestedinput": "SuperAdminTrackingUncheckedUpdateManyWithoutSuperAdminNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43241 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackinguncheckedupdatewithoutsuperadmininput": "SuperAdminTrackingUncheckedUpdateWithoutSuperAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52673 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingupdateargs": "SuperAdminTrackingUpdateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28666 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingupdateinput": "SuperAdminTrackingUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39804 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingupdatemanyargs": "SuperAdminTrackingUpdateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28688 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingupdatemanymutationinput": "SuperAdminTrackingUpdateManyMutationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39839 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingupdatemanywithoutsuperadminnestedinput": "SuperAdminTrackingUpdateManyWithoutSuperAdminNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43213 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingupdatemanywithwherewithoutsuperadmininput": "SuperAdminTrackingUpdateManyWithWhereWithoutSuperAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46287 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingupdatewithoutsuperadmininput": "SuperAdminTrackingUpdateWithoutSuperAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52663 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingupdatewithwhereuniquewithoutsuperadmininput": "SuperAdminTrackingUpdateWithWhereUniqueWithoutSuperAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46282 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingupsertargs": "SuperAdminTrackingUpsertArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28702 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingupsertwithwhereuniquewithoutsuperadmininput": "SuperAdminTrackingUpsertWithWhereUniqueWithoutSuperAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46276 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingwhereinput": "SuperAdminTrackingWhereInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36741 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmintrackingwhereuniqueinput": "SuperAdminTrackingWhereUniqueInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36770 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadminuncheckedcreateinput": "SuperAdminUncheckedCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37422 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadminuncheckedcreatewithoutsessionsinput": "SuperAdminUncheckedCreateWithoutSessionsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46316 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadminuncheckedcreatewithouttrackingsinput": "SuperAdminUncheckedCreateWithoutTrackingsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50668 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadminuncheckedupdateinput": "SuperAdminUncheckedUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37443 | neighbors=[index.d.ts]
 
 ## Instructions
 

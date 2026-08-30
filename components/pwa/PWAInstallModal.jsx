@@ -25,7 +25,7 @@ import {
 
 export function getDeviceInfo() {
   if (typeof window === "undefined") {
-    return { os: "unknown", isStandalone: false, isIOS: false, isAndroid: false, isDesktop: true };
+    return { os: "unknown", isStandalone: false, isIOS: false, isAndroid: false, isDesktop: true, isEdge: false, isChrome: false };
   }
 
   const isStandalone =
@@ -40,6 +40,8 @@ export function getDeviceInfo() {
   const isAndroid = /Android/.test(ua);
   const isWindows = /Windows/.test(ua);
   const isMac = /Macintosh|Mac OS X/.test(ua) && !isIOS;
+  const isEdge = /Edg\//.test(ua);
+  const isChrome = /Chrome\//.test(ua) && !isEdge;
 
   let os = "desktop";
   if (isIOS) os = "ios";
@@ -53,6 +55,8 @@ export function getDeviceInfo() {
     isAndroid,
     isWindows,
     isMac,
+    isEdge,
+    isChrome,
     isDesktop: !isIOS && !isAndroid,
     isStandalone,
   };
@@ -66,9 +70,12 @@ export default function PWAInstallModal({ forceOpen = false, onClose = null }) {
     isIOS: false,
     isAndroid: false,
     isDesktop: true,
+    isEdge: false,
+    isChrome: false,
   });
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [isInstalled, setIsInstalled] = useState(false);
+  const [showManualGuide, setShowManualGuide] = useState(false);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -82,6 +89,11 @@ export default function PWAInstallModal({ forceOpen = false, onClose = null }) {
       return;
     }
 
+    // Check if prompt was already captured globally
+    if (window.deferredPwaPrompt) {
+      setDeferredPrompt(window.deferredPwaPrompt);
+    }
+
     // Listen for the native beforeinstallprompt event
     const handleBeforeInstallPrompt = (e) => {
       e.preventDefault();
@@ -89,13 +101,23 @@ export default function PWAInstallModal({ forceOpen = false, onClose = null }) {
       window.deferredPwaPrompt = e;
     };
 
+    const handlePromptAvailable = (e) => {
+      const promptObj = e?.detail || window.deferredPwaPrompt;
+      if (promptObj) {
+        setDeferredPrompt(promptObj);
+      }
+    };
+
     const handleAppInstalled = () => {
       setIsInstalled(true);
       setOpen(false);
+      window.deferredPwaPrompt = null;
       localStorage.removeItem("pwa_show_install_on_login");
     };
 
     window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+    window.addEventListener("pwa-prompt-available", handlePromptAvailable);
+    window.addEventListener("pwa-installed", handleAppInstalled);
     window.addEventListener("appinstalled", handleAppInstalled);
 
     // Check if we should trigger on login
@@ -109,40 +131,50 @@ export default function PWAInstallModal({ forceOpen = false, onClose = null }) {
       return () => {
         clearTimeout(timer);
         window.removeEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+        window.removeEventListener("pwa-prompt-available", handlePromptAvailable);
+        window.removeEventListener("pwa-installed", handleAppInstalled);
         window.removeEventListener("appinstalled", handleAppInstalled);
       };
     }
 
     return () => {
       window.removeEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+      window.removeEventListener("pwa-prompt-available", handlePromptAvailable);
+      window.removeEventListener("pwa-installed", handleAppInstalled);
       window.removeEventListener("appinstalled", handleAppInstalled);
     };
   }, [forceOpen]);
 
   const handleClose = () => {
     setOpen(false);
+    setShowManualGuide(false);
     localStorage.removeItem("pwa_show_install_on_login");
     if (onClose) onClose();
   };
 
   const handleInstallClick = async () => {
-    const promptEvent = deferredPrompt || window.deferredPwaPrompt;
+    const promptEvent = deferredPrompt || (typeof window !== "undefined" ? window.deferredPwaPrompt : null);
+    
     if (promptEvent) {
       try {
-        promptEvent.prompt();
-        const { outcome } = await promptEvent.userChoice;
-        if (outcome === "accepted") {
+        await promptEvent.prompt();
+        const choiceResult = await promptEvent.userChoice;
+        if (choiceResult?.outcome === "accepted") {
           setIsInstalled(true);
+          window.deferredPwaPrompt = null;
+          setDeferredPrompt(null);
           handleClose();
         }
       } catch (err) {
         console.warn("[PWA] Install prompt error:", err);
+        setShowManualGuide(true);
       }
     } else if (deviceInfo.isIOS) {
-      // iOS doesn't support programmatic install; guide is shown
+      // iOS doesn't support programmatic prompt
       handleClose();
     } else {
-      handleClose();
+      // If browser hasn't fired beforeinstallprompt or user needs address bar install
+      setShowManualGuide(true);
     }
   };
 
@@ -151,7 +183,7 @@ export default function PWAInstallModal({ forceOpen = false, onClose = null }) {
     return null;
   }
 
-  const { isIOS, isAndroid, isDesktop } = deviceInfo;
+  const { isIOS, isAndroid, isDesktop, isEdge } = deviceInfo;
 
   return (
     <Dialog
@@ -280,7 +312,7 @@ export default function PWAInstallModal({ forceOpen = false, onClose = null }) {
           </Box>
         </Stack>
 
-        {/* Device-Specific Simple Instructions */}
+        {/* Device-Specific Instructions */}
         {isIOS ? (
           /* iOS Step-by-Step Guide */
           <Box
@@ -377,8 +409,107 @@ export default function PWAInstallModal({ forceOpen = false, onClose = null }) {
               </Box>
             </Stack>
           </Box>
+        ) : showManualGuide || (!deferredPrompt && isDesktop) ? (
+          /* Desktop Address Bar Manual Guide */
+          <Box
+            sx={{
+              bgcolor: "#f8fafc",
+              border: "1.5px solid #0f766e",
+              borderRadius: "14px",
+              p: 2,
+              mb: 2.5,
+            }}
+          >
+            <Typography
+              variant="caption"
+              sx={{
+                fontWeight: 800,
+                color: "#0f766e",
+                textTransform: "uppercase",
+                letterSpacing: "0.05em",
+                display: "block",
+                mb: 1.2,
+              }}
+            >
+              {isEdge ? "Install via Microsoft Edge" : "Install via Google Chrome / Browser"}
+            </Typography>
+
+            <Stack spacing={1.2}>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1.2 }}>
+                <Box
+                  sx={{
+                    width: 24,
+                    height: 24,
+                    borderRadius: "50%",
+                    bgcolor: "#0f766e",
+                    color: "#fff",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "0.75rem",
+                    fontWeight: 800,
+                    flexShrink: 0,
+                    mt: 0.2,
+                  }}
+                >
+                  1
+                </Box>
+                <Typography variant="body2" sx={{ fontSize: "0.825rem", color: "#334155", lineHeight: 1.4 }}>
+                  Look at the <strong>right side of your top URL bar</strong> and click the <strong>Install icon (⊕ or 💻)</strong>.
+                </Typography>
+              </Box>
+
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1.2 }}>
+                <Box
+                  sx={{
+                    width: 24,
+                    height: 24,
+                    borderRadius: "50%",
+                    bgcolor: "#0f766e",
+                    color: "#fff",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "0.75rem",
+                    fontWeight: 800,
+                    flexShrink: 0,
+                    mt: 0.2,
+                  }}
+                >
+                  2
+                </Box>
+                <Typography variant="body2" sx={{ fontSize: "0.825rem", color: "#334155", lineHeight: 1.4 }}>
+                  Or click the top-right <strong>Menu (⋮ or ...)</strong> ➔ <strong>&quot;Install EasyTechnoMed&quot;</strong> (or <strong>Apps ➔ Install this site as an app</strong>).
+                </Typography>
+              </Box>
+
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1.2 }}>
+                <Box
+                  sx={{
+                    width: 24,
+                    height: 24,
+                    borderRadius: "50%",
+                    bgcolor: "#0f766e",
+                    color: "#fff",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "0.75rem",
+                    fontWeight: 800,
+                    flexShrink: 0,
+                    mt: 0.2,
+                  }}
+                >
+                  3
+                </Box>
+                <Typography variant="body2" sx={{ fontSize: "0.825rem", color: "#334155", lineHeight: 1.4 }}>
+                  Click <strong>Install</strong> on the confirmation popup.
+                </Typography>
+              </Box>
+            </Stack>
+          </Box>
         ) : (
-          /* Android / Desktop Install Box */
+          /* Android / Desktop Normal Box */
           <Box
             sx={{
               bgcolor: "#f8fafc",
@@ -402,7 +533,7 @@ export default function PWAInstallModal({ forceOpen = false, onClose = null }) {
 
         {/* Action Buttons */}
         <Stack spacing={1.2}>
-          {isIOS ? (
+          {isIOS || (showManualGuide && isDesktop) ? (
             <Button
               fullWidth
               variant="contained"
@@ -459,3 +590,4 @@ export default function PWAInstallModal({ forceOpen = false, onClose = null }) {
     </Dialog>
   );
 }
+

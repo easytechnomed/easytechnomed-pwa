@@ -1,4 +1,4 @@
-# Node Description Batch 86 of 150
+# Node Description Batch 86 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_patientresultwhereuniqueinput": "PatientResultWhereUniqueInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36330 | neighbors=[index.d.ts]
+- "generated_client_index_d_pickenumerable": "PickEnumerable" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L1001 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_adminaddressclient": "Prisma__AdminAddressClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24602 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_adminclient": "Prisma__AdminClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L11454 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_adminroleclient": "Prisma__AdminRoleClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L13415 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_adminrolepermissionclient": "Prisma__AdminRolePermissionClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L14352 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_adminsessionclient": "Prisma__AdminSessionClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L12505 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_admintrackingclient": "Prisma__AdminTrackingClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27434 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_doctorclient": "Prisma__DoctorClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L15362 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_doctorincentiveclient": "Prisma__DoctorIncentiveClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L32267 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_interpretationruleclient": "Prisma__InterpretationRuleClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31336 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_leadclient": "Prisma__LeadClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23649 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_leadcontactclient": "Prisma__LeadContactClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26510 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_parameterclient": "Prisma__ParameterClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20546 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_patientresultclient": "Prisma__PatientResultClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22748 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_pick": "Prisma__Pick" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L741 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_registrationclient": "Prisma__RegistrationClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18052 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_registrationpaymentclient": "Prisma__RegistrationPaymentClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25560 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_registrationtestclient": "Prisma__RegistrationTestClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19221 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_superadminclient": "Prisma__SuperAdminClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L5479 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_superadminsessionclient": "Prisma__SuperAdminSessionClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L6458 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_superadmintrackingclient": "Prisma__SuperAdminTrackingClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28414 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_testclient": "Prisma__TestClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L16582 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_testdepartmentclient": "Prisma__TestDepartmentClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29338 | neighbors=[index.d.ts]
+- "generated_client_index_d_prisma_testformulaclient": "Prisma__TestFormulaClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L30352 | neighbors=[index.d.ts]
 - "generated_client_index_d_prisma_testparameterclient": "Prisma__TestParameterClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21742 | neighbors=[index.d.ts]
 - "generated_client_index_d_prisma_userclient": "Prisma__UserClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7509 | neighbors=[index.d.ts]
 - "generated_client_index_d_prisma_userroleclient": "Prisma__UserRoleClient" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9385 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_promisereturntype": "PromiseReturnType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L736 | neighbors=[index.d.ts]
 - "generated_client_index_d_promisetype": "PromiseType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L731 | neighbors=[index.d.ts]
 - "generated_client_index_d_queryevent": "QueryEvent" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3059 | neighbors=[index.d.ts]
-- "generated_client_index_d_record": "_Record" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L890 | neighbors=[index.d.ts]
-- "generated_client_index_d_registration": "Registration" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L85 | neighbors=[index.d.ts]
-- "generated_client_index_d_registration_adminargs": "Registration$adminArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18496 | neighbors=[index.d.ts]
-- "generated_client_index_d_registration_paymentsargs": "Registration$paymentsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18511 | neighbors=[index.d.ts]
-- "generated_client_index_d_registration_refbyargs": "Registration$refByArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18451 | neighbors=[index.d.ts]
-- "generated_client_index_d_registration_resultsargs": "Registration$resultsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18431 | neighbors=[index.d.ts]
-- "generated_client_index_d_registration_secondrefargs": "Registration$secondRefArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18466 | neighbors=[index.d.ts]
-- "generated_client_index_d_registration_testsargs": "Registration$testsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18531 | neighbors=[index.d.ts]
-- "generated_client_index_d_registration_workspaceargs": "Registration$workspaceArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18481 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationaggregateargs": "RegistrationAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L17408 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationargs": "RegistrationArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54370 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationavgaggregateinputtype": "RegistrationAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L17242 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationavgaggregateoutputtype": "RegistrationAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L17075 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationavgorderbyaggregateinput": "RegistrationAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41579 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationcountaggregateinputtype": "RegistrationCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L17364 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationcountaggregateoutputtype": "RegistrationCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L17197 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationcountargs": "RegistrationCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L17720 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationcountorderbyaggregateinput": "RegistrationCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41536 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationcountoutputtype": "RegistrationCountOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3547 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationcountoutputtypeargs": "RegistrationCountOutputTypeArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54302 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationcountoutputtypecountpaymentsargs": "RegistrationCountOutputTypeCountPaymentsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3580 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationcountoutputtypecountresultsargs": "RegistrationCountOutputTypeCountResultsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3573 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationcountoutputtypecounttestsargs": "RegistrationCountOutputTypeCountTestsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3587 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationcountoutputtypedefaultargs": "RegistrationCountOutputTypeDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3563 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationcountoutputtypeselect": "RegistrationCountOutputTypeSelect" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3553 | neighbors=[index.d.ts]
 
 ## Instructions
 

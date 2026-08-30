@@ -1,4 +1,4 @@
-# Node Description Batch 36 of 150
+# Node Description Batch 36 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -12,58 +12,51 @@ describing what it is or does. Use only the provided context.
 For a code symbol (kind=code-symbol — a function, class, or constant),
 describe what the function/symbol does based on its name, source location
 and neighbors — e.g. "Resolves the configured ontology profile from graphify.yaml.".
-For an entity node (any other kind — e.g. a person, place, event, object),
-describe what the entity is and its role, grounded in its type, its
-relations (neighbors) and the provided citations/evidence — e.g.
-"Lady Carfax, a wealthy heiress who disappears en route to Lausanne.".
-Ground entity descriptions in the citations/evidence when present; do not
-speculate beyond the context, so a node with no supporting context may be
-left out of the reply.
 Write every description in English (en). Do not switch languages.
 No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
-- "app_sitemap": "sitemap.js" | kind=code-symbol | source=app/sitemap.js:L1 | neighbors=[sitemap(), 252e194 e]
-- "approvals_route": "route.js" | kind=code-symbol | source=app/api/approvals/route.js:L1 | neighbors=[GET(), 252e194 e]
-- "approve_route": "route.js" | kind=code-symbol | source=app/api/approvals/approve/route.js:L1 | neighbors=[POST(), 252e194 e]
-- "auth_offlineauth_islocalsessionvalid": "isLocalSessionValid()" | kind=code-symbol | source=lib/auth/offlineAuth.js:L100 | neighbors=[offlineAuth.js, getCachedSession()]
-- "by_mobile_route_get": "GET()" | kind=code-symbol | source=app/api/registrations/by-mobile/route.js:L10 | neighbors=[route.js, serializeData()]
-- "by_mobile_route_serializedata": "serializeData()" | kind=code-symbol | source=app/api/registrations/by-mobile/route.js:L6 | neighbors=[route.js, GET()]
-- "change_role_route": "route.js" | kind=code-symbol | source=app/api/approvals/change-role/route.js:L1 | neighbors=[POST(), 252e194 e]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@74d638d5e3b95cf9a5df4de84e4f874fd5e9c024": "74d638d 3.1.9" | kind=Commit | source=git | neighbors=[main, 78dd976 fixed]
-- "component_differentialcounttracker_isdifferentialheader": "isDifferentialHeader()" | kind=code-symbol | source=app/(customer)/(dashboard)/test-report/component/DifferentialCountTracker.jsx:L76 | neighbors=[DifferentialCountTracker.jsx, DifferentialHeaderBadge()]
-- "component_differentialcounttracker_validatedifferentialonsave": "validateDifferentialOnSave()" | kind=code-symbol | source=app/(customer)/(dashboard)/test-report/component/DifferentialCountTracker.jsx:L178 | neighbors=[DifferentialCountTracker.jsx, calculateDifferentialSummary()]
-- "component_showresult_isoutofrange": "isOutOfRange()" | kind=code-symbol | source=app/(customer)/(dashboard)/test-report/component/showResult.jsx:L92 | neighbors=[showResult.jsx, isQualitativeAbnormal()]
-- "component_showresult_isqualitativeabnormal": "isQualitativeAbnormal()" | kind=code-symbol | source=app/(customer)/(dashboard)/test-report/component/showResult.jsx:L62 | neighbors=[showResult.jsx, isOutOfRange()]
-- "component_showresultmobile_isoutofrange": "isOutOfRange()" | kind=code-symbol | source=app/(customer)/(dashboard)/test-report/component/showResultMobile.jsx:L74 | neighbors=[showResultMobile.jsx, isQualitativeAbnormal()]
-- "component_showresultmobile_isqualitativeabnormal": "isQualitativeAbnormal()" | kind=code-symbol | source=app/(customer)/(dashboard)/test-report/component/showResultMobile.jsx:L48 | neighbors=[showResultMobile.jsx, isOutOfRange()]
-- "components_toastprovider": "ToastProvider.js" | kind=code-symbol | source=components/ToastProvider.js:L1 | neighbors=[252e194 e, ToastProvider()]
-- "contact_route": "route.js" | kind=code-symbol | source=app/api/contact/route.js:L1 | neighbors=[252e194 e, POST()]
-- "dashboard_dashboardcharts_departmentdistributionchart": "DepartmentDistributionChart()" | kind=code-symbol | source=app/(customer)/(dashboard)/dashboard/DashboardCharts.js:L88 | neighbors=[DashboardCharts.js, page.js]
-- "dashboard_dashboardcharts_referralchart": "ReferralChart()" | kind=code-symbol | source=app/(customer)/(dashboard)/dashboard/DashboardCharts.js:L201 | neighbors=[DashboardCharts.js, page.js]
-- "dashboard_dashboardcharts_registrationchart": "RegistrationChart()" | kind=code-symbol | source=app/(customer)/(dashboard)/dashboard/DashboardCharts.js:L52 | neighbors=[DashboardCharts.js, page.js]
-- "dashboard_dashboardcharts_revenuechart": "RevenueChart()" | kind=code-symbol | source=app/(customer)/(dashboard)/dashboard/DashboardCharts.js:L104 | neighbors=[DashboardCharts.js, page.js]
-- "doctor_summary_route_get": "GET()" | kind=code-symbol | source=app/api/doctor-summary/route.js:L10 | neighbors=[route.js, serializeData()]
-- "doctor_summary_route_serializedata": "serializeData()" | kind=code-symbol | source=app/api/doctor-summary/route.js:L6 | neighbors=[route.js, GET()]
-- "doctors_route_get": "GET()" | kind=code-symbol | source=app/api/doctors/route.js:L10 | neighbors=[route.js, serializeData()]
-- "doctors_route_post": "POST()" | kind=code-symbol | source=app/api/doctors/route.js:L24 | neighbors=[route.js, serializeData()]
-- "doctors_route_put": "PUT()" | kind=code-symbol | source=app/api/doctors/route.js:L114 | neighbors=[route.js, serializeData()]
-- "draft_route": "route.js" | kind=code-symbol | source=app/api/registrations/[id]/results/draft/route.js:L1 | neighbors=[252e194 e, POST()]
-- "eslint_config": "eslint.config.mjs" | kind=code-symbol | source=eslint.config.mjs:L1 | neighbors=[252e194 e, eslintConfig]
-- "generated_client_default": "default.js" | kind=code-symbol | source=scratch/generated-client/default.js:L1 | neighbors=[252e194 e, edge.d.ts]
-- "generated_client_default_d": "default.d.ts" | kind=code-symbol | source=scratch/generated-client/default.d.ts:L1 | neighbors=[252e194 e, index.js]
-- "generated_client_edge_d": "edge.d.ts" | kind=code-symbol | source=scratch/generated-client/edge.d.ts:L1 | neighbors=[252e194 e, default.js]
-- "generated_client_index_browser_prismaclient": "PrismaClient" | kind=code-symbol | source=scratch/generated-client/index-browser.js:L607 | neighbors=[index-browser.js, .constructor()]
-- "generated_client_wasm_d": "wasm.d.ts" | kind=code-symbol | source=scratch/generated-client/wasm.d.ts:L1 | neighbors=[252e194 e, index.js]
-- "generated_client_wasm_prismaclient": "PrismaClient" | kind=code-symbol | source=scratch/generated-client/wasm.js:L607 | neighbors=[wasm.js, .constructor()]
-- "google_route": "route.js" | kind=code-symbol | source=app/api/authas/google/route.js:L1 | neighbors=[252e194 e, POST()]
-- "hooks_useoffline": "useOffline.js" | kind=code-symbol | source=hooks/useOffline.js:L1 | neighbors=[2b2534c f, useOffline()]
-- "hooks_usesync_usesync": "useSync()" | kind=code-symbol | source=hooks/useSync.js:L5 | neighbors=[useOfflineData.js, useSync.js]
-- "id_route_get": "GET()" | kind=code-symbol | source=app/api/registrations/[id]/route.js:L42 | neighbors=[route.js, serializeData()]
-- "id_route_put": "PUT()" | kind=code-symbol | source=app/api/registrations/[id]/route.js:L79 | neighbors=[route.js, serializeData()]
-- "improve_route_callgemini": "callGemini()" | kind=code-symbol | source=app/api/ai/improve/route.js:L6 | neighbors=[route.js, POST()]
-- "improve_route_post": "POST()" | kind=code-symbol | source=app/api/ai/improve/route.js:L44 | neighbors=[route.js, callGemini()]
+- "runtime_wasm_es": "es()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, be(), from()]
+- "runtime_wasm_getallclientextensions": "getAllClientExtensions()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, get(), tt()]
+- "runtime_wasm_getallmodelextensions": "getAllModelExtensions()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, getOrCreate(), Wr()]
+- "runtime_wasm_getallquerycallbacks": "getAllQueryCallbacks()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, getOrCreate(), qi()]
+- "runtime_wasm_getsubselectionvalue": "getSubSelectionValue()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L3 | neighbors=[wasm.js, getDeepSubSelectionValue(), getSelectionParent()]
+- "runtime_wasm_gi": "gi()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, Fr(), r()]
+- "runtime_wasm_hs": "hs()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, addSuggestion(), hasField()]
+- "runtime_wasm_i": "_i()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L6 | neighbors=[wasm.js, Ct(), Fa()]
+- "runtime_wasm_io": "io()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L14 | neighbors=[wasm.js, al(), rt()]
+- "runtime_wasm_isbuffer": "isBuffer()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, si(), so()]
+- "runtime_wasm_isdecimal": "isDecimal()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, Qe(), so()]
+- "runtime_wasm_israwaction": "isRawAction()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, includes(), na()]
+- "runtime_wasm_ka": "ka()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L6 | neighbors=[wasm.js, concat(), Wr()]
+- "runtime_wasm_li": "li()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, ai(), Zs()]
+- "runtime_wasm_loadlibrary": "loadLibrary()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L11 | neighbors=[wasm.js, loadEngine(), Ce()]
+- "runtime_wasm_makerequired": "makeRequired()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L2 | neighbors=[wasm.js, fs(), _s()]
+- "runtime_wasm_nn": "nn()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, alloc(), fill()]
+- "runtime_wasm_on": "on()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, gr(), toString()]
+- "runtime_wasm_oo": "oo()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L14 | neighbors=[wasm.js, ao(), toString()]
+- "runtime_wasm_or": "Or()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, t(), Os()]
+- "runtime_wasm_os": "Os()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L2 | neighbors=[wasm.js, Kn(), Or()]
+- "runtime_wasm_pa": "Pa()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L6 | neighbors=[wasm.js, oi(), tt()]
+- "runtime_wasm_pe": "Pe()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, ae(), ke()]
+- "runtime_wasm_removeallfields": "removeAllFields()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L3 | neighbors=[wasm.js, ds(), _s()]
+- "runtime_wasm_reverse": "reverse()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, mn(), un()]
+- "runtime_wasm_setcolor": "setColor()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L3 | neighbors=[wasm.js, write(), writeEmpty()]
+- "runtime_wasm_shouldapplyglobalomit": "shouldApplyGlobalOmit()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, getGlobalOmit(), be()]
+- "runtime_wasm_sn": "sn()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, indexOf(), slice()]
+- "runtime_wasm_ss": "Ss()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L2 | neighbors=[wasm.js, as(), concat()]
+- "runtime_wasm_to": "to()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L12 | neighbors=[wasm.js, at(), Ce()]
+- "runtime_wasm_ve": "Ve()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, getGlobalOmit(), ls()]
+- "runtime_wasm_vt": "vt()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, tt(), Wr()]
+- "runtime_wasm_wt": "wt()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, constructor(), hi()]
+- "runtime_wasm_xs": "Xs()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, si(), addItem()]
+- "runtime_wasm_ya": "ya()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, Ir(), mr()]
+- "runtime_wasm_za": "za()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L21 | neighbors=[wasm.js, be(), xo()]
+- "scratch_check_reg_14": "check-reg-14.js" | kind=code-symbol | source=scratch/check-reg-14.js:L1 | neighbors=[dcd11d4 first commit, main(), 252e194 e]
+- "scratch_check_reg_22": "check-reg-22.js" | kind=code-symbol | source=scratch/check-reg-22.js:L1 | neighbors=[dcd11d4 first commit, main(), 252e194 e]
+- "scratch_test_calc_calculatealldependents": "calculateAllDependents()" | kind=code-symbol | source=scratch/test-calc.js:L76 | neighbors=[test-calc.js, checkFormulaDependencies(), evaluateExpression()]
+- "scratch_test_db": "test-db.mjs" | kind=code-symbol | source=scratch/test-db.mjs:L1 | neighbors=[dcd11d4 first commit, main(), 252e194 e]
 
 ## Instructions
 

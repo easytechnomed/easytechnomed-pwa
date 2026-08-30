@@ -1,4 +1,4 @@
-# Node Description Batch 81 of 150
+# Node Description Batch 81 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_parameter": "Parameter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L95 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameter_interpretationrulesargs": "Parameter$interpretationRulesArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20972 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameter_testformulasargs": "Parameter$testFormulasArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20952 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameter_testmappingsargs": "Parameter$testMappingsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20932 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameter_workspaceargs": "Parameter$workspaceArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20917 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameteraggregateargs": "ParameterAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19931 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterargs": "ParameterArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54378 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameteravgaggregateinputtype": "ParameterAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19762 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameteravgaggregateoutputtype": "ParameterAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19592 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameteravgorderbyaggregateinput": "ParameterAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41848 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercountaggregateinputtype": "ParameterCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19892 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercountaggregateoutputtype": "ParameterCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19722 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercountargs": "ParameterCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20214 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercountorderbyaggregateinput": "ParameterCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41810 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercountoutputtype": "ParameterCountOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3596 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercountoutputtypeargs": "ParameterCountOutputTypeArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54306 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercountoutputtypecountinterpretationrulesargs": "ParameterCountOutputTypeCountInterpretationRulesArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3636 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercountoutputtypecounttestformulasargs": "ParameterCountOutputTypeCountTestFormulasArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3629 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercountoutputtypecounttestmappingsargs": "ParameterCountOutputTypeCountTestMappingsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3622 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercountoutputtypedefaultargs": "ParameterCountOutputTypeDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3612 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercountoutputtypeselect": "ParameterCountOutputTypeSelect" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3602 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercreateargs": "ParameterCreateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20798 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercreateinput": "ParameterCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L38902 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercreatemanyargs": "ParameterCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20816 | neighbors=[index.d.ts]
+- "generated_client_index_d_parametercreatemanyinput": "ParameterCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39064 | neighbors=[index.d.ts]
 - "generated_client_index_d_parametercreatemanyworkspaceinput": "ParameterCreateManyWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51889 | neighbors=[index.d.ts]
 - "generated_client_index_d_parametercreatemanyworkspaceinputenvelope": "ParameterCreateManyWorkspaceInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45527 | neighbors=[index.d.ts]
 - "generated_client_index_d_parametercreatenestedmanywithoutworkspaceinput": "ParameterCreateNestedManyWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42772 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_parametercreatewithouttestmappingsinput": "ParameterCreateWithoutTestMappingsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49537 | neighbors=[index.d.ts]
 - "generated_client_index_d_parametercreatewithoutworkspaceinput": "ParameterCreateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45443 | neighbors=[index.d.ts]
 - "generated_client_index_d_parameterdefaultargs": "ParameterDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20992 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterdelegate": "ParameterDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20219 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterdeleteargs": "ParameterDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20889 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterdeletemanyargs": "ParameterDeleteManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20907 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterfieldrefs": "ParameterFieldRefs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20580 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterfindfirstargs": "ParameterFindFirstArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20659 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterfindfirstorthrowargs": "ParameterFindFirstOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20707 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterfindmanyargs": "ParameterFindManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20755 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterfinduniqueargs": "ParameterFindUniqueArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20623 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterfinduniqueorthrowargs": "ParameterFindUniqueOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20641 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametergetpayload": "ParameterGetPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20212 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametergroupbyargs": "ParameterGroupByArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20003 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametergroupbyoutputtype": "ParameterGroupByOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20017 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterinclude": "ParameterInclude" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20156 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterlistrelationfilter": "ParameterListRelationFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40449 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametermaxaggregateinputtype": "ParameterMaxAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19854 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametermaxaggregateoutputtype": "ParameterMaxAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19684 | neighbors=[index.d.ts]
-- "generated_client_index_d_parametermaxorderbyaggregateinput": "ParameterMaxOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41875 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterminaggregateinputtype": "ParameterMinAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19816 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterminaggregateoutputtype": "ParameterMinAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19646 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterminorderbyaggregateinput": "ParameterMinOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41913 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterorderbyrelationaggregateinput": "ParameterOrderByRelationAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40503 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterorderbywithaggregationinput": "ParameterOrderByWithAggregationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36081 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterorderbywithrelationinput": "ParameterOrderByWithRelationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L35993 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterpayload": "$ParameterPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20164 | neighbors=[index.d.ts]
-- "generated_client_index_d_parameterrelationfilter": "ParameterRelationFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41994 | neighbors=[index.d.ts]
 
 ## Instructions
 

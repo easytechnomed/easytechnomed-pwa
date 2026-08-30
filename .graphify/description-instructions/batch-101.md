@@ -1,4 +1,4 @@
-# Node Description Batch 102 of 150
+# Node Description Batch 102 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_testcreatenestedonewithoutregistrationsinput": "TestCreateNestedOneWithoutRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44327 | neighbors=[index.d.ts]
+- "generated_client_index_d_testcreateorconnectwithoutdepartmentinput": "TestCreateOrConnectWithoutDepartmentInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50766 | neighbors=[index.d.ts]
+- "generated_client_index_d_testcreateorconnectwithoutformulasinput": "TestCreateOrConnectWithoutFormulasInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50891 | neighbors=[index.d.ts]
+- "generated_client_index_d_testcreateorconnectwithoutinterpretationrulesinput": "TestCreateOrConnectWithoutInterpretationRulesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51285 | neighbors=[index.d.ts]
+- "generated_client_index_d_testcreateorconnectwithoutparametersinput": "TestCreateOrConnectWithoutParametersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49674 | neighbors=[index.d.ts]
+- "generated_client_index_d_testcreateorconnectwithoutregistrationsinput": "TestCreateOrConnectWithoutRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49030 | neighbors=[index.d.ts]
+- "generated_client_index_d_testcreateorconnectwithoutworkspaceinput": "TestCreateOrConnectWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45384 | neighbors=[index.d.ts]
+- "generated_client_index_d_testcreatewithoutdepartmentinput": "TestCreateWithoutDepartmentInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50713 | neighbors=[index.d.ts]
+- "generated_client_index_d_testcreatewithoutformulasinput": "TestCreateWithoutFormulasInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50838 | neighbors=[index.d.ts]
+- "generated_client_index_d_testcreatewithoutinterpretationrulesinput": "TestCreateWithoutInterpretationRulesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51232 | neighbors=[index.d.ts]
+- "generated_client_index_d_testcreatewithoutparametersinput": "TestCreateWithoutParametersInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49621 | neighbors=[index.d.ts]
+- "generated_client_index_d_testcreatewithoutregistrationsinput": "TestCreateWithoutRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48977 | neighbors=[index.d.ts]
+- "generated_client_index_d_testcreatewithoutworkspaceinput": "TestCreateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45331 | neighbors=[index.d.ts]
+- "generated_client_index_d_testdefaultargs": "TestDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L17051 | neighbors=[index.d.ts]
+- "generated_client_index_d_testdelegate": "TestDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L16255 | neighbors=[index.d.ts]
+- "generated_client_index_d_testdeleteargs": "TestDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L16913 | neighbors=[index.d.ts]
+- "generated_client_index_d_testdeletemanyargs": "TestDeleteManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L16931 | neighbors=[index.d.ts]
+- "generated_client_index_d_testdepartment": "TestDepartment" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L140 | neighbors=[index.d.ts]
+- "generated_client_index_d_testdepartment_testsargs": "TestDepartment$testsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29675 | neighbors=[index.d.ts]
+- "generated_client_index_d_testdepartmentaggregateargs": "TestDepartmentAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28856 | neighbors=[index.d.ts]
+- "generated_client_index_d_testdepartmentargs": "TestDepartmentArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54414 | neighbors=[index.d.ts]
+- "generated_client_index_d_testdepartmentavgaggregateinputtype": "TestDepartmentAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28826 | neighbors=[index.d.ts]
+- "generated_client_index_d_testdepartmentavgaggregateoutputtype": "TestDepartmentAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28795 | neighbors=[index.d.ts]
+- "generated_client_index_d_testdepartmentavgorderbyaggregateinput": "TestDepartmentAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42425 | neighbors=[index.d.ts]
+- "generated_client_index_d_testdepartmentcountaggregateinputtype": "TestDepartmentCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28848 | neighbors=[index.d.ts]
 - "generated_client_index_d_testdepartmentcountaggregateoutputtype": "TestDepartmentCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28817 | neighbors=[index.d.ts]
 - "generated_client_index_d_testdepartmentcountargs": "TestDepartmentCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29006 | neighbors=[index.d.ts]
 - "generated_client_index_d_testdepartmentcountorderbyaggregateinput": "TestDepartmentCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42418 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_testdepartmentcreatenestedonewithouttestsinput": "TestDepartmentCreateNestedOneWithoutTestsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43915 | neighbors=[index.d.ts]
 - "generated_client_index_d_testdepartmentcreateorconnectwithouttestsinput": "TestDepartmentCreateOrConnectWithoutTestsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47938 | neighbors=[index.d.ts]
 - "generated_client_index_d_testdepartmentcreatewithouttestsinput": "TestDepartmentCreateWithoutTestsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47925 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentdefaultargs": "TestDepartmentDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29695 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentdelegate": "TestDepartmentDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29011 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentdeleteargs": "TestDepartmentDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29647 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentdeletemanyargs": "TestDepartmentDeleteManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29665 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentfieldrefs": "TestDepartmentFieldRefs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29369 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentfindfirstargs": "TestDepartmentFindFirstArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29417 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentfindfirstorthrowargs": "TestDepartmentFindFirstOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29465 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentfindmanyargs": "TestDepartmentFindManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29513 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentfinduniqueargs": "TestDepartmentFindUniqueArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29381 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentfinduniqueorthrowargs": "TestDepartmentFindUniqueOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29399 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentgetpayload": "TestDepartmentGetPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29004 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentgroupbyargs": "TestDepartmentGroupByArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28928 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentgroupbyoutputtype": "TestDepartmentGroupByOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28942 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentinclude": "TestDepartmentInclude" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28985 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentmaxaggregateinputtype": "TestDepartmentMaxAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28841 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentmaxaggregateoutputtype": "TestDepartmentMaxAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28810 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentmaxorderbyaggregateinput": "TestDepartmentMaxOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42429 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentminaggregateinputtype": "TestDepartmentMinAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28834 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentminaggregateoutputtype": "TestDepartmentMinAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28803 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentminorderbyaggregateinput": "TestDepartmentMinOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42436 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentnullablerelationfilter": "TestDepartmentNullableRelationFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41352 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentorderbywithaggregationinput": "TestDepartmentOrderByWithAggregationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36848 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentorderbywithrelationinput": "TestDepartmentOrderByWithRelationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36829 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentpayload": "$TestDepartmentPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L28990 | neighbors=[index.d.ts]
-- "generated_client_index_d_testdepartmentscalarfieldenum": "TestDepartmentScalarFieldEnum" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34331 | neighbors=[index.d.ts]
 
 ## Instructions
 

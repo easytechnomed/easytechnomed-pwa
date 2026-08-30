@@ -1,4 +1,4 @@
-# Node Description Batch 83 of 150
+# Node Description Batch 83 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_parameteruncheckedupdatemanyinput": "ParameterUncheckedUpdateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39138 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameteruncheckedupdatemanywithoutworkspaceinput": "ParameterUncheckedUpdateManyWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52449 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameteruncheckedupdatemanywithoutworkspacenestedinput": "ParameterUncheckedUpdateManyWithoutWorkspaceNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43105 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameteruncheckedupdatewithoutinterpretationrulesinput": "ParameterUncheckedUpdateWithoutInterpretationRulesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51540 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameteruncheckedupdatewithouttestformulasinput": "ParameterUncheckedUpdateWithoutTestFormulasInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51146 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameteruncheckedupdatewithouttestmappingsinput": "ParameterUncheckedUpdateWithoutTestMappingsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49797 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameteruncheckedupdatewithoutworkspaceinput": "ParameterUncheckedUpdateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52409 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdateargs": "ParameterUpdateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20827 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdateinput": "ParameterUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L38983 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdatemanyargs": "ParameterUpdateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20849 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdatemanymutationinput": "ParameterUpdateManyMutationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39102 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdatemanywithoutworkspacenestedinput": "ParameterUpdateManyWithoutWorkspaceNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42969 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdatemanywithwherewithoutworkspaceinput": "ParameterUpdateManyWithWhereWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45959 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdateonerequiredwithoutinterpretationrulesnestedinput": "ParameterUpdateOneRequiredWithoutInterpretationRulesNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44795 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdateonerequiredwithouttestformulasnestedinput": "ParameterUpdateOneRequiredWithoutTestFormulasNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44751 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdateonerequiredwithouttestmappingsnestedinput": "ParameterUpdateOneRequiredWithoutTestMappingsNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44555 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdatetoonewithwherewithoutinterpretationrulesinput": "ParameterUpdateToOneWithWhereWithoutInterpretationRulesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51496 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdatetoonewithwherewithouttestformulasinput": "ParameterUpdateToOneWithWhereWithoutTestFormulasInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51102 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdatetoonewithwherewithouttestmappingsinput": "ParameterUpdateToOneWithWhereWithoutTestMappingsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49753 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdatewithoutinterpretationrulesinput": "ParameterUpdateWithoutInterpretationRulesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51501 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdatewithouttestformulasinput": "ParameterUpdateWithoutTestFormulasInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51107 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdatewithouttestmappingsinput": "ParameterUpdateWithoutTestMappingsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49758 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdatewithoutworkspaceinput": "ParameterUpdateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52370 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupdatewithwhereuniquewithoutworkspaceinput": "ParameterUpdateWithWhereUniqueWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45954 | neighbors=[index.d.ts]
+- "generated_client_index_d_parameterupsertargs": "ParameterUpsertArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20863 | neighbors=[index.d.ts]
 - "generated_client_index_d_parameterupsertwithoutinterpretationrulesinput": "ParameterUpsertWithoutInterpretationRulesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51490 | neighbors=[index.d.ts]
 - "generated_client_index_d_parameterupsertwithouttestformulasinput": "ParameterUpsertWithoutTestFormulasInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51096 | neighbors=[index.d.ts]
 - "generated_client_index_d_parameterupsertwithouttestmappingsinput": "ParameterUpsertWithoutTestMappingsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49747 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_patientresultavgaggregateoutputtype": "PatientResultAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22156 | neighbors=[index.d.ts]
 - "generated_client_index_d_patientresultavgorderbyaggregateinput": "PatientResultAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42106 | neighbors=[index.d.ts]
 - "generated_client_index_d_patientresultcountaggregateinputtype": "PatientResultCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22237 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcountaggregateoutputtype": "PatientResultCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22190 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcountargs": "PatientResultCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22416 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcountorderbyaggregateinput": "PatientResultCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42095 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreateargs": "PatientResultCreateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22971 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreateinput": "PatientResultCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39328 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreatemanyargs": "PatientResultCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22989 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreatemanyinput": "PatientResultCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39370 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreatemanyregistrationinput": "PatientResultCreateManyRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L53811 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreatemanyregistrationinputenvelope": "PatientResultCreateManyRegistrationInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48329 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreatemanytestparameterinput": "PatientResultCreateManyTestParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54124 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreatemanytestparameterinputenvelope": "PatientResultCreateManyTestParameterInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49532 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreatenestedmanywithoutregistrationinput": "PatientResultCreateNestedManyWithoutRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44123 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreatenestedmanywithouttestparameterinput": "PatientResultCreateNestedManyWithoutTestParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44505 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreateorconnectwithoutregistrationinput": "PatientResultCreateOrConnectWithoutRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48324 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreateorconnectwithouttestparameterinput": "PatientResultCreateOrConnectWithoutTestParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49527 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreatewithoutregistrationinput": "PatientResultCreateWithoutRegistrationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48305 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultcreatewithouttestparameterinput": "PatientResultCreateWithoutTestParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49508 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultdefaultargs": "PatientResultDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23090 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultdelegate": "PatientResultDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22421 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultdeleteargs": "PatientResultDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23062 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultdeletemanyargs": "PatientResultDeleteManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23080 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultfieldrefs": "PatientResultFieldRefs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22780 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultfindfirstargs": "PatientResultFindFirstArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22832 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultfindfirstorthrowargs": "PatientResultFindFirstOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22880 | neighbors=[index.d.ts]
-- "generated_client_index_d_patientresultfindmanyargs": "PatientResultFindManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22928 | neighbors=[index.d.ts]
 
 ## Instructions
 

@@ -1,4 +1,4 @@
-# Node Description Batch 54 of 150
+# Node Description Batch 54 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_adminaddresscountaggregateinputtype": "AdminAddressCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24074 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresscountaggregateoutputtype": "AdminAddressCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24013 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresscountargs": "AdminAddressCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24270 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresscountorderbyaggregateinput": "AdminAddressCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42169 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresscreateargs": "AdminAddressCreateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24828 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresscreateinput": "AdminAddressCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39446 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresscreatemanyargs": "AdminAddressCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24846 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresscreatemanyinput": "AdminAddressCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39504 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresscreatenestedonewithoutadmininput": "AdminAddressCreateNestedOneWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43477 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresscreateorconnectwithoutadmininput": "AdminAddressCreateOrConnectWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46887 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresscreatewithoutadmininput": "AdminAddressCreateWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46860 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressdefaultargs": "AdminAddressDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24947 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressdelegate": "AdminAddressDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24275 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressdeleteargs": "AdminAddressDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24919 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressdeletemanyargs": "AdminAddressDeleteManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24937 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressfieldrefs": "AdminAddressFieldRefs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24633 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressfindfirstargs": "AdminAddressFindFirstArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24689 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressfindfirstorthrowargs": "AdminAddressFindFirstOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24737 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressfindmanyargs": "AdminAddressFindManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24785 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressfinduniqueargs": "AdminAddressFindUniqueArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24653 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressfinduniqueorthrowargs": "AdminAddressFindUniqueOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24671 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressgetpayload": "AdminAddressGetPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24268 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressgroupbyargs": "AdminAddressGroupByArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24162 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressgroupbyoutputtype": "AdminAddressGroupByOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24176 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressinclude": "AdminAddressInclude" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24242 | neighbors=[index.d.ts]
 - "generated_client_index_d_adminaddressmaxaggregateinputtype": "AdminAddressMaxAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24059 | neighbors=[index.d.ts]
 - "generated_client_index_d_adminaddressmaxaggregateoutputtype": "AdminAddressMaxAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23998 | neighbors=[index.d.ts]
 - "generated_client_index_d_adminaddressmaxorderbyaggregateinput": "AdminAddressMaxOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42191 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_adminaddressselect": "AdminAddressSelect" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24210 | neighbors=[index.d.ts]
 - "generated_client_index_d_adminaddressselectscalar": "AdminAddressSelectScalar" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24227 | neighbors=[index.d.ts]
 - "generated_client_index_d_adminaddresssumaggregateinputtype": "AdminAddressSumAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24037 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddresssumaggregateoutputtype": "AdminAddressSumAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23976 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddresssumorderbyaggregateinput": "AdminAddressSumOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42221 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressuncheckedcreateinput": "AdminAddressUncheckedCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39460 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressuncheckedcreatenestedonewithoutadmininput": "AdminAddressUncheckedCreateNestedOneWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43504 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressuncheckedcreatewithoutadmininput": "AdminAddressUncheckedCreateWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46873 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressuncheckedupdateinput": "AdminAddressUncheckedUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39489 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressuncheckedupdatemanyinput": "AdminAddressUncheckedUpdateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39532 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressuncheckedupdateonewithoutadminnestedinput": "AdminAddressUncheckedUpdateOneWithoutAdminNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43601 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressuncheckedupdatewithoutadmininput": "AdminAddressUncheckedUpdateWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47151 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressupdateargs": "AdminAddressUpdateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24857 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressupdateinput": "AdminAddressUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39475 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressupdatemanyargs": "AdminAddressUpdateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24879 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressupdatemanymutationinput": "AdminAddressUpdateManyMutationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39519 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressupdateonewithoutadminnestedinput": "AdminAddressUpdateOneWithoutAdminNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43549 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressupdatetoonewithwherewithoutadmininput": "AdminAddressUpdateToOneWithWhereWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47133 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressupdatewithoutadmininput": "AdminAddressUpdateWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47138 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressupsertargs": "AdminAddressUpsertArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24893 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddressupsertwithoutadmininput": "AdminAddressUpsertWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47127 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddresswhereinput": "AdminAddressWhereInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36426 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaddresswhereuniqueinput": "AdminAddressWhereUniqueInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36461 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminaggregateargs": "AdminAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10877 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminargs": "AdminArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54346 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminavgaggregateinputtype": "AdminAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10779 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminavgaggregateoutputtype": "AdminAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10680 | neighbors=[index.d.ts]
-- "generated_client_index_d_adminavgorderbyaggregateinput": "AdminAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41052 | neighbors=[index.d.ts]
 
 ## Instructions
 

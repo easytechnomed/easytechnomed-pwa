@@ -1,4 +1,4 @@
-# Node Description Batch 26 of 150
+# Node Description Batch 26 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -9,6 +9,9 @@ your JSON answer to the answer file.
 You are documenting nodes in a knowledge graph.
 For each entry below, write ONE concise factual plain-language sentence
 describing what it is or does. Use only the provided context.
+For a code symbol (kind=code-symbol — a function, class, or constant),
+describe what the function/symbol does based on its name, source location
+and neighbors — e.g. "Resolves the configured ontology profile from graphify.yaml.".
 For an entity node (any other kind — e.g. a person, place, event, object),
 describe what the entity is and its role, grounded in its type, its
 relations (neighbors) and the provided citations/evidence — e.g.
@@ -21,46 +24,46 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "scratch_test_calc_export": "test-calc-export.js" | kind=code-symbol | source=scratch/test-calc-export.js:L1 | neighbors=[dcd11d4 first commit, calculateDifferentialSummary(), DLC_DEFINITIONS, 252e194 e]
+- "scratch_test_reg_15": "test-reg-15.js" | kind=code-symbol | source=scratch/test-reg-15.js:L1 | neighbors=[dcd11d4 first commit, runFormulaEngine(), main(), 252e194 e]
+- "seed_parameters_route": "route.js" | kind=code-symbol | source=app/api/seed-parameters/route.js:L1 | neighbors=[dcd11d4 first commit, GET(), processTestParameters(), 252e194 e]
+- "settings_route": "route.js" | kind=code-symbol | source=app/api/settings/route.js:L1 | neighbors=[dcd11d4 first commit, GET(), POST(), 252e194 e]
+- "suggestion_route": "route.js" | kind=code-symbol | source=app/api/ai/suggestion/route.js:L1 | neighbors=[dcd11d4 first commit, callGeminiModels(), POST(), 252e194 e]
+- "sync_route": "route.js" | kind=code-symbol | source=app/api/offline/sync/route.js:L1 | neighbors=[dcd11d4 first commit, POST(), 2b2534c f, 7d8c494 fxed]
+- "tests_page": "page.js" | kind=code-symbol | source=app/(customer)/(dashboard)/settings/tests/page.js:L1 | neighbors=[dcd11d4 first commit, SettingsTestsPage(), testsClient.jsx, 252e194 e]
+- "ui_dropdown": "Dropdown.js" | kind=code-symbol | source=components/ui/Dropdown.js:L1 | neighbors=[dcd11d4 first commit, Dropdown(), DropdownItem(), 252e194 e]
+- "ui_loader": "Loader.js" | kind=code-symbol | source=components/ui/Loader.js:L1 | neighbors=[dcd11d4 first commit, Button.js, Loader(), 252e194 e]
+- "version_versionupdatenotifier": "VersionUpdateNotifier.jsx" | kind=code-symbol | source=components/version/VersionUpdateNotifier.jsx:L1 | neighbors=[dcd11d4 first commit, compareVersions(), VersionUpdateNotifier(), 6236f60 new update]
+- "admin_route": "route.js" | kind=code-symbol | source=app/api/tracking/admin/route.js:L1 | neighbors=[POST(), dcd11d4 first commit, 252e194 e]
+- "app_robots": "robots.js" | kind=code-symbol | source=app/robots.js:L1 | neighbors=[robots(), dcd11d4 first commit, 252e194 e]
+- "app_sitemap": "sitemap.js" | kind=code-symbol | source=app/sitemap.js:L1 | neighbors=[sitemap(), dcd11d4 first commit, 252e194 e]
+- "approvals_route": "route.js" | kind=code-symbol | source=app/api/approvals/route.js:L1 | neighbors=[GET(), dcd11d4 first commit, 252e194 e]
+- "approve_route": "route.js" | kind=code-symbol | source=app/api/approvals/approve/route.js:L1 | neighbors=[POST(), dcd11d4 first commit, 252e194 e]
+- "auth_offlineauth_getorcreateofflinesession": "getOrCreateOfflineSession()" | kind=code-symbol | source=lib/auth/offlineAuth.js:L40 | neighbors=[offlineAuth.js, getCachedSession(), saveAuthenticatedSession()]
+- "auth_offlineauth_saveauthenticatedsession": "saveAuthenticatedSession()" | kind=code-symbol | source=lib/auth/offlineAuth.js:L11 | neighbors=[offlineAuth.js, getCachedSession(), getOrCreateOfflineSession()]
+- "change_role_route": "route.js" | kind=code-symbol | source=app/api/approvals/change-role/route.js:L1 | neighbors=[POST(), dcd11d4 first commit, 252e194 e]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@005eea64d4b3a10ba1333108406eb24a0669b82f": "005eea6 f" | kind=Commit | source=git | neighbors=[main, c6b79b3 f, a356e41 f]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@026962b54f367ae791af9ea1c3acccabe3b7999a": "026962b 1.1.33" | kind=Commit | source=git | neighbors=[main, 53ca5c1 stable version 1, a409645 fix: resolve Chrome reload loop…]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@05ff30789c62158472747a1d4720bfa72699ce66": "05ff307 2.0.3" | kind=Commit | source=git | neighbors=[main, b0c8bf9 full indexeddb based, 84a8ff2 full indexeddb based]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@0afb0aca16b0b7c60827b470364b7139f68d0373": "0afb0ac 2.0.19" | kind=Commit | source=git | neighbors=[main, d84f15f f, 9e25c19 f]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@1064f6b19f43957380f01f884545e43d863fb4f4": "1064f6b 2.0.10" | kind=Commit | source=git | neighbors=[main, aae6bad fixed, 5e3d9ef d]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@124b88b4c01bdabc4e99b46c281017518e15dae3": "124b88b 3.0.13" | kind=Commit | source=git | neighbors=[main, 19d7012 3.0.14, 8184d32 f]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@14ed805173d8f620130ddae59fa09191a53a56d3": "14ed805 3.0.0" | kind=Commit | source=git | neighbors=[main, af73a19 fixed, fae0b0a graphify added.]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@19d7012f2d3e0caadffb9968147bfaec47feb9ee": "19d7012 3.0.14" | kind=Commit | source=git | neighbors=[124b88b 3.0.13, main, 8b1f3d8 a]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@1ba5187ee6d2c914df8e27fd4139a8596d6081cc": "1ba5187 2.0.17" | kind=Commit | source=git | neighbors=[main, 37ee548 f, eb42395 2.0.16]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@20dc303b41e0ec95a716d05d525405c6bf88bace": "20dc303 3.0.19" | kind=Commit | source=git | neighbors=[main, a712d0e ios issue pwa, 2582be7 fixed zoom issue]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@2291b5b219512923f56c9243207e09ed0fbbd6c7": "2291b5b 2.0.2" | kind=Commit | source=git | neighbors=[main, 84a8ff2 full indexeddb based, cf2bb98 new]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@2476fb6811bfd0ea0c2be69c2f0e6584978025f6": "2476fb6 2.0.9" | kind=Commit | source=git | neighbors=[main, 5e3d9ef d, cea69a2 d]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@272c64d50ea12ecf90db19a61cebc538cbbd6e34": "272c64d fixed" | kind=Commit | source=git | neighbors=[main, 3917c34 3.1.7, 36209a9 3.1.6]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@2ef3785b62d6e83ce6505a9dc81cc501e8efe8eb": "2ef3785 2.0.1" | kind=Commit | source=git | neighbors=[main, cf2bb98 new, 3c7e66b f]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@36209a9af96bb0929bab65a718f755f8ba99c58a": "36209a9 3.1.6" | kind=Commit | source=git | neighbors=[10501e3 fixed, main, 272c64d fixed]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@3917c34bffb24a9251500540b80574e96449c824": "3917c34 3.1.7" | kind=Commit | source=git | neighbors=[272c64d fixed, main, 78dd976 fixed]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@3e84241fb483afc52ec34d972453dd2e97bb3c61": "3e84241 3.0.7" | kind=Commit | source=git | neighbors=[main, 2daebb8 f, c6b79b3 f]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@3f7f1b43875414ebdec1c6b147ae0a582a83e374": "3f7f1b4 2.0.0" | kind=Commit | source=git | neighbors=[main, 3c7e66b f, 53ca5c1 stable version 1]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@42773a17f7fafb1a10eb65d51c6d58114960246b": "42773a1 1.1.31" | kind=Commit | source=git | neighbors=[main, 91c4f7a feat: complete offline support …, a4caf17 fix: ensure Service Worker only…]
 - "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@44ad6b291634e03f879c81169447c20a2f87c7bc": "44ad6b2 new ui dashboard" | kind=Commit | source=git | neighbors=[main, b95c5bd 3.0.24, 6812ab9 new ui dashboard]
 - "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@462f542b7ee9e8bc36357c23ab77576e01bc53d9": "462f542 3.0.4" | kind=Commit | source=git | neighbors=[main, a356e41 f, c15ae1e fixed]
 - "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@48cc7ec32defe0b9c99dc02a05d23b2bfcbc86f7": "48cc7ec 2.0.22" | kind=Commit | source=git | neighbors=[14fa292 f, main, 9f59247 expire token]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@5ce0a2ea8942fa32ba4e3e1cffce040572cdebda": "5ce0a2e fixed" | kind=Commit | source=git | neighbors=[main, 9a50d76 3.0.2, c5cbecd 3.0.1]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@5ff27349a85485707e8d6ec1dbdf3a9164b29d0c": "5ff2734 2.0.11" | kind=Commit | source=git | neighbors=[main, 4d7570f fixed, aae6bad fixed]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@6325ac4601eac2f28c31d96812a3115d32258803": "6325ac4 2.0.20" | kind=Commit | source=git | neighbors=[main, f3857f9 f, d84f15f f]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@6adf5501e8593ddd4e13f315ccca1356b6194f3b": "6adf550 3.1.4" | kind=Commit | source=git | neighbors=[6236f60 new update, main, 10501e3 fixed]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@713405831eef818366ebb6342eb43cd7340a4a62": "7134058 1.1.29" | kind=Commit | source=git | neighbors=[main, b5ea15f d, d87cf87 d]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@720f0160e2a9e5247fee57dd7f67464920beaa7c": "720f016 2.0.13" | kind=Commit | source=git | neighbors=[main, 905ef50 fixed, c070c55 fixed]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@7ec66e7df558d9a5ccbcadcf69502606866a22f3": "7ec66e7 3.0.18" | kind=Commit | source=git | neighbors=[main, 2582be7 fixed zoom issue, 8b1f3d8 a]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@7ec76baa937c381ba6859cd5d0cfe2bb9a34815d": "7ec76ba 2.0.12" | kind=Commit | source=git | neighbors=[4d7570f fixed, main, c070c55 fixed]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@7fcf80494a27d4ec2c960aafbecce7822f0a3df5": "7fcf804 1.1.30" | kind=Commit | source=git | neighbors=[main, a4caf17 fix: ensure Service Worker only…, b5ea15f d]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@8065d22d01c683faaa33c19410974d6979d7d1fe": "8065d22 3.0.8" | kind=Commit | source=git | neighbors=[2daebb8 f, main, 165f057 f]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@84807f47cf682325bf74a7f044ba8c9dcc1c4fbd": "84807f4 1.1.27" | kind=Commit | source=git | neighbors=[56f4d63 f, main, 532b740 fixed]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@98ad5ca697f0155858c84f94f0a8f7df6f8c5fd6": "98ad5ca 2.0.24" | kind=Commit | source=git | neighbors=[main, fae0b0a graphify added., d446d11 fixed code]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@9a50d76fdc96edbbcfaff30fb952ad24910efa0a": "9a50d76 3.0.2" | kind=Commit | source=git | neighbors=[5ce0a2e fixed, main, c15ae1e fixed]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@9d71afcc23862c5fffbd639f60476f1ad073ffc7": "9d71afc 3.0.22" | kind=Commit | source=git | neighbors=[47b2032 ios issue pwa, main, 6812ab9 new ui dashboard]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@9deec8fd0983a64980479366856db84bed70a63a": "9deec8f 2.0.4" | kind=Commit | source=git | neighbors=[main, fafa3d9 f, b0c8bf9 full indexeddb based]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@a09f0a95766b6fcc8df3cba0f15a47bb4f277805": "a09f0a9 3.0.21" | kind=Commit | source=git | neighbors=[main, 47b2032 ios issue pwa, a712d0e ios issue pwa]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@a14c9b8bbea1748bf13611f038dce324604c0733": "a14c9b8 2.0.14" | kind=Commit | source=git | neighbors=[905ef50 fixed, main, cb86968 fixed]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@a3fc29c71d3e49a1c2ab30c25c1bf8449f363d1c": "a3fc29c 3.0.25" | kind=Commit | source=git | neighbors=[6c2dfe4 test, main, 67434f2 payment issue only]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@a4a950af85ecefcfc811d8b22f2b61546a488fe8": "a4a950a 2.0.5" | kind=Commit | source=git | neighbors=[main, 6618261 f, fafa3d9 f]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@b95c5bd71d1cfe3e148c4fdaea214fd71d458e81": "b95c5bd 3.0.24" | kind=Commit | source=git | neighbors=[44ad6b2 new ui dashboard, main, 6c2dfe4 test]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@c41a815a6ea80961049650bc3fc80593b5c83810": "c41a815 3.0.11" | kind=Commit | source=git | neighbors=[b5dedb0 f, main, 8184d32 f]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@c5cbecd35dab9843171e92af854db27d4a2695d8": "c5cbecd 3.0.1" | kind=Commit | source=git | neighbors=[af73a19 fixed, main, 5ce0a2e fixed]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@c82cfd75cd7430b8abc8461383578f5995fa86e1": "c82cfd7 3.0.10" | kind=Commit | source=git | neighbors=[165f057 f, main, b5dedb0 f]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@cc4c42700f90d3aaec33239797a4bf165ff759d3": "cc4c427 1.1.26" | kind=Commit | source=git | neighbors=[6fcf015 f, main, 56f4d63 f]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@dad94e154d28d52e1022bfb4ad46b292c0217a63": "dad94e1 2.0.18" | kind=Commit | source=git | neighbors=[37ee548 f, main, 9e25c19 f]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@dbe17328a3c0ed13c2d1fc9400bad8257f433f7c": "dbe1732 1.1.25" | kind=Commit | source=git | neighbors=[main, 6fcf015 f, eb8b1e5 f]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@e01658c7ee068df1118ba443c9b24f5f56e20f03": "e01658c 3.1.0" | kind=Commit | source=git | neighbors=[67434f2 payment issue only, main, 6236f60 new update]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@e7103414d8890eb785205bb901bf456f01bd4be6": "e710341 1.1.32" | kind=Commit | source=git | neighbors=[91c4f7a feat: complete offline support …, main, a409645 fix: resolve Chrome reload loop…]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@e9caab3ea343ad7030c27e2201023719ed930428": "e9caab3 2.0.15" | kind=Commit | source=git | neighbors=[cb86968 fixed, main, bcee6c8 fi]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@e9f3af911d7a7f7a10c4bf02f044a25f7b5e1801": "e9f3af9 2.0.6" | kind=Commit | source=git | neighbors=[6618261 f, main, 4ba60cc fixed]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@eacdd5b5a368efd90df33fc605fbe79e09534fa7": "eacdd5b 2.0.23" | kind=Commit | source=git | neighbors=[9f59247 expire token, main, d446d11 fixed code]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@eb42395202ac782c1a11135566e9898cc7c47bf1": "eb42395 2.0.16" | kind=Commit | source=git | neighbors=[cfa3879 f, main, 1ba5187 2.0.17]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@ec70d212b2fec4c5300d745eee7db01d78d8e21e": "ec70d21 2.0.7" | kind=Commit | source=git | neighbors=[4ba60cc fixed, main, 37dcb32 fixed]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@f4e1e655ae80cf80b6058913d91248ead25763a3": "f4e1e65 2.0.21" | kind=Commit | source=git | neighbors=[f3857f9 f, main, 14fa292 f]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@f9a9e52ab881f37b37845b3f25a164a999f6ce02": "f9a9e52 1.1.28" | kind=Commit | source=git | neighbors=[532b740 fixed, main, d87cf87 d]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@f9e9bea93a9679482a23f68dc2d2df3c6b3c9c17": "f9e9bea 2.0.8" | kind=Commit | source=git | neighbors=[37dcb32 fixed, main, cea69a2 d]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@fae0b0a32e7f1f425fc024c87b3f94a501c8a16c": "fae0b0a graphify added." | kind=Commit | source=git | neighbors=[98ad5ca 2.0.24, main, 14ed805 3.0.0]
 
 ## Instructions
 

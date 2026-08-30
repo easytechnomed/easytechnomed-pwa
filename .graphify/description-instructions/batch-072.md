@@ -1,4 +1,4 @@
-# Node Description Batch 73 of 150
+# Node Description Batch 73 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_getadminsessionaggregatetype": "GetAdminSessionAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L12074 | neighbors=[index.d.ts]
+- "generated_client_index_d_getadminsessiongroupbypayload": "GetAdminSessionGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L12114 | neighbors=[index.d.ts]
+- "generated_client_index_d_getadmintrackingaggregatetype": "GetAdminTrackingAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26995 | neighbors=[index.d.ts]
+- "generated_client_index_d_getadmintrackinggroupbypayload": "GetAdminTrackingGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L27037 | neighbors=[index.d.ts]
+- "generated_client_index_d_getdoctoraggregatetype": "GetDoctorAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L14896 | neighbors=[index.d.ts]
+- "generated_client_index_d_getdoctorgroupbypayload": "GetDoctorGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L14942 | neighbors=[index.d.ts]
+- "generated_client_index_d_getdoctorincentiveaggregatetype": "GetDoctorIncentiveAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31848 | neighbors=[index.d.ts]
+- "generated_client_index_d_getdoctorincentivegroupbypayload": "GetDoctorIncentiveGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31885 | neighbors=[index.d.ts]
+- "generated_client_index_d_getevents": "GetEvents" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3055 | neighbors=[index.d.ts]
+- "generated_client_index_d_gethavingfields": "GetHavingFields" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L975 | neighbors=[index.d.ts]
+- "generated_client_index_d_getinterpretationruleaggregatetype": "GetInterpretationRuleAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L30895 | neighbors=[index.d.ts]
+- "generated_client_index_d_getinterpretationrulegroupbypayload": "GetInterpretationRuleGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L30936 | neighbors=[index.d.ts]
+- "generated_client_index_d_getleadaggregatetype": "GetLeadAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23236 | neighbors=[index.d.ts]
+- "generated_client_index_d_getleadcontactaggregatetype": "GetLeadContactAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26077 | neighbors=[index.d.ts]
+- "generated_client_index_d_getleadcontactgroupbypayload": "GetLeadContactGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L26119 | neighbors=[index.d.ts]
+- "generated_client_index_d_getleadgroupbypayload": "GetLeadGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23273 | neighbors=[index.d.ts]
+- "generated_client_index_d_getlogtype": "GetLogType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3054 | neighbors=[index.d.ts]
+- "generated_client_index_d_getparameteraggregatetype": "GetParameterAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L19992 | neighbors=[index.d.ts]
+- "generated_client_index_d_getparametergroupbypayload": "GetParameterGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L20060 | neighbors=[index.d.ts]
+- "generated_client_index_d_getpatientresultaggregatetype": "GetPatientResultAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22310 | neighbors=[index.d.ts]
+- "generated_client_index_d_getpatientresultgroupbypayload": "GetPatientResultGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22351 | neighbors=[index.d.ts]
+- "generated_client_index_d_getregistrationaggregatetype": "GetRegistrationAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L17469 | neighbors=[index.d.ts]
+- "generated_client_index_d_getregistrationgroupbypayload": "GetRegistrationGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L17542 | neighbors=[index.d.ts]
+- "generated_client_index_d_getregistrationpaymentaggregatetype": "GetRegistrationPaymentAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25125 | neighbors=[index.d.ts]
+- "generated_client_index_d_getregistrationpaymentgroupbypayload": "GetRegistrationPaymentGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25166 | neighbors=[index.d.ts]
 - "generated_client_index_d_getregistrationtestaggregatetype": "GetRegistrationTestAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18763 | neighbors=[index.d.ts]
 - "generated_client_index_d_getregistrationtestgroupbypayload": "GetRegistrationTestGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18809 | neighbors=[index.d.ts]
 - "generated_client_index_d_getscalartype": "GetScalarType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L964 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_gettestformulaaggregatetype": "GetTestFormulaAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29899 | neighbors=[index.d.ts]
 - "generated_client_index_d_gettestformulagroupbypayload": "GetTestFormulaGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L29943 | neighbors=[index.d.ts]
 - "generated_client_index_d_gettestgroupbypayload": "GetTestGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L16132 | neighbors=[index.d.ts]
-- "generated_client_index_d_gettestparameteraggregatetype": "GetTestParameterAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21252 | neighbors=[index.d.ts]
-- "generated_client_index_d_gettestparametergroupbypayload": "GetTestParameterGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21304 | neighbors=[index.d.ts]
-- "generated_client_index_d_getuseraggregatetype": "GetUserAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7030 | neighbors=[index.d.ts]
-- "generated_client_index_d_getusergroupbypayload": "GetUserGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7080 | neighbors=[index.d.ts]
-- "generated_client_index_d_getuserroleaggregatetype": "GetUserRoleAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L8969 | neighbors=[index.d.ts]
-- "generated_client_index_d_getuserrolegroupbypayload": "GetUserRoleGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9004 | neighbors=[index.d.ts]
-- "generated_client_index_d_getuserrolepermissionaggregatetype": "GetUserRolePermissionAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9905 | neighbors=[index.d.ts]
-- "generated_client_index_d_getuserrolepermissiongroupbypayload": "GetUserRolePermissionGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9941 | neighbors=[index.d.ts]
-- "generated_client_index_d_getusersessionaggregatetype": "GetUserSessionAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L8064 | neighbors=[index.d.ts]
-- "generated_client_index_d_getusersessiongroupbypayload": "GetUserSessionGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L8104 | neighbors=[index.d.ts]
-- "generated_client_index_d_getworkspaceaggregatetype": "GetWorkspaceAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3875 | neighbors=[index.d.ts]
-- "generated_client_index_d_getworkspacegroupbypayload": "GetWorkspaceGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3917 | neighbors=[index.d.ts]
-- "generated_client_index_d_getworkspacepdfaggregatetype": "GetWorkspacePdfAggregateType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L32964 | neighbors=[index.d.ts]
-- "generated_client_index_d_getworkspacepdfgroupbypayload": "GetWorkspacePdfGroupByPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L33030 | neighbors=[index.d.ts]
-- "generated_client_index_d_has": "Has" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L937 | neighbors=[index.d.ts]
-- "generated_client_index_d_interpretationrule": "InterpretationRule" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L150 | neighbors=[index.d.ts]
-- "generated_client_index_d_interpretationrule_workspaceargs": "InterpretationRule$workspaceArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31679 | neighbors=[index.d.ts]
-- "generated_client_index_d_interpretationruleaggregateargs": "InterpretationRuleAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L30834 | neighbors=[index.d.ts]
-- "generated_client_index_d_interpretationruleargs": "InterpretationRuleArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54422 | neighbors=[index.d.ts]
-- "generated_client_index_d_interpretationruleavgaggregateinputtype": "InterpretationRuleAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L30786 | neighbors=[index.d.ts]
-- "generated_client_index_d_interpretationruleavgaggregateoutputtype": "InterpretationRuleAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L30737 | neighbors=[index.d.ts]
-- "generated_client_index_d_interpretationruleavgorderbyaggregateinput": "InterpretationRuleAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42522 | neighbors=[index.d.ts]
-- "generated_client_index_d_interpretationrulecountaggregateinputtype": "InterpretationRuleCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L30822 | neighbors=[index.d.ts]
-- "generated_client_index_d_interpretationrulecountaggregateoutputtype": "InterpretationRuleCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L30773 | neighbors=[index.d.ts]
-- "generated_client_index_d_interpretationrulecountargs": "InterpretationRuleCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L31004 | neighbors=[index.d.ts]
 
 ## Instructions
 

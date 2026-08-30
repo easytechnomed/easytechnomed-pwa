@@ -1,4 +1,4 @@
-# Node Description Batch 107 of 150
+# Node Description Batch 107 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_testinclude": "TestInclude" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L16202 | neighbors=[index.d.ts]
+- "generated_client_index_d_testlistrelationfilter": "TestListRelationFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40437 | neighbors=[index.d.ts]
+- "generated_client_index_d_testmaxaggregateinputtype": "TestMaxAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L15968 | neighbors=[index.d.ts]
+- "generated_client_index_d_testmaxaggregateoutputtype": "TestMaxAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L15864 | neighbors=[index.d.ts]
+- "generated_client_index_d_testmaxorderbyaggregateinput": "TestMaxOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41411 | neighbors=[index.d.ts]
+- "generated_client_index_d_testminaggregateinputtype": "TestMinAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L15944 | neighbors=[index.d.ts]
+- "generated_client_index_d_testminaggregateoutputtype": "TestMinAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L15840 | neighbors=[index.d.ts]
+- "generated_client_index_d_testminorderbyaggregateinput": "TestMinOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41435 | neighbors=[index.d.ts]
+- "generated_client_index_d_testorderbyrelationaggregateinput": "TestOrderByRelationAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40495 | neighbors=[index.d.ts]
+- "generated_client_index_d_testorderbywithaggregationinput": "TestOrderByWithAggregationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L35540 | neighbors=[index.d.ts]
+- "generated_client_index_d_testorderbywithrelationinput": "TestOrderByWithRelationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L35476 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparameter": "TestParameter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L100 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparameter_resultsargs": "TestParameter$resultsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22112 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparameter_workspaceargs": "TestParameter$workspaceArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22097 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparameteraggregateargs": "TestParameterAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21191 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparameterargs": "TestParameterArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54382 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparameteravgaggregateinputtype": "TestParameterAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21104 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparameteravgaggregateoutputtype": "TestParameterAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21016 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparameteravgorderbyaggregateinput": "TestParameterAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42021 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparametercountaggregateinputtype": "TestParameterCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21168 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparametercountaggregateoutputtype": "TestParameterCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21080 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparametercountargs": "TestParameterCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21410 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparametercountorderbyaggregateinput": "TestParameterCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41999 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparametercountoutputtype": "TestParameterCountOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3645 | neighbors=[index.d.ts]
+- "generated_client_index_d_testparametercountoutputtypeargs": "TestParameterCountOutputTypeArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54310 | neighbors=[index.d.ts]
 - "generated_client_index_d_testparametercountoutputtypecountresultsargs": "TestParameterCountOutputTypeCountResultsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3667 | neighbors=[index.d.ts]
 - "generated_client_index_d_testparametercountoutputtypedefaultargs": "TestParameterCountOutputTypeDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3657 | neighbors=[index.d.ts]
 - "generated_client_index_d_testparametercountoutputtypeselect": "TestParameterCountOutputTypeSelect" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3649 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_testparametercreatemanyworkspaceinputenvelope": "TestParameterCreateManyWorkspaceInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45580 | neighbors=[index.d.ts]
 - "generated_client_index_d_testparametercreatenestedmanywithoutparameterinput": "TestParameterCreateNestedManyWithoutParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44355 | neighbors=[index.d.ts]
 - "generated_client_index_d_testparametercreatenestedmanywithouttestinput": "TestParameterCreateNestedManyWithoutTestInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43934 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametercreatenestedmanywithoutworkspaceinput": "TestParameterCreateNestedManyWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42779 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametercreatenestedonewithoutresultsinput": "TestParameterCreateNestedOneWithoutResultsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44591 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametercreateorconnectwithoutparameterinput": "TestParameterCreateOrConnectWithoutParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49288 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametercreateorconnectwithoutresultsinput": "TestParameterCreateOrConnectWithoutResultsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50038 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametercreateorconnectwithouttestinput": "TestParameterCreateOrConnectWithoutTestInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48072 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametercreateorconnectwithoutworkspaceinput": "TestParameterCreateOrConnectWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45575 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametercreatewithoutparameterinput": "TestParameterCreateWithoutParameterInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49245 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametercreatewithoutresultsinput": "TestParameterCreateWithoutResultsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49995 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametercreatewithouttestinput": "TestParameterCreateWithoutTestInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48029 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametercreatewithoutworkspaceinput": "TestParameterCreateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45532 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparameterdefaultargs": "TestParameterDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22132 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparameterdelegate": "TestParameterDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21415 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparameterdeleteargs": "TestParameterDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22069 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparameterdeletemanyargs": "TestParameterDeleteManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L22087 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparameterfieldrefs": "TestParameterFieldRefs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21776 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparameterfindfirstargs": "TestParameterFindFirstArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21839 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparameterfindfirstorthrowargs": "TestParameterFindFirstOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21887 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparameterfindmanyargs": "TestParameterFindManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21935 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparameterfinduniqueargs": "TestParameterFindUniqueArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21803 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparameterfinduniqueorthrowargs": "TestParameterFindUniqueOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21821 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametergetpayload": "TestParameterGetPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21408 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametergroupbyargs": "TestParameterGroupByArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21263 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparametergroupbyoutputtype": "TestParameterGroupByOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21277 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparameterinclude": "TestParameterInclude" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L21368 | neighbors=[index.d.ts]
-- "generated_client_index_d_testparameterlistrelationfilter": "TestParameterListRelationFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40455 | neighbors=[index.d.ts]
 
 ## Instructions
 

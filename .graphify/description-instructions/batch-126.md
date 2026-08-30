@@ -1,4 +1,4 @@
-# Node Description Batch 127 of 150
+# Node Description Batch 127 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,8 +17,32 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "login_loginpageclient_loginschema": "loginSchema" | kind=code-symbol | source=app/(customer)/auth/login/LoginPageClient.js:L16 | neighbors=[LoginPageClient.js]
+- "login_page_metadata": "metadata" | kind=code-symbol | source=app/(customer)/auth/login/page.js:L3 | neighbors=[page.js]
+- "login_page_page": "Page()" | kind=code-symbol | source=app/(customer)/auth/login/page.js:L11 | neighbors=[page.js]
+- "login_route_post": "POST()" | kind=code-symbol | source=app/api/authas/login/route.js:L9 | neighbors=[route.js]
+- "logout_redirect_route_get": "GET()" | kind=code-symbol | source=app/api/auth/logout-redirect/route.js:L4 | neighbors=[route.js]
+- "logout_route_post": "POST()" | kind=code-symbol | source=app/api/authas/logout/route.js:L5 | neighbors=[route.js]
+- "members_page_workspacememberspage": "WorkspaceMembersPage()" | kind=code-symbol | source=app/(customer)/(dashboard)/members/page.js:L36 | neighbors=[page.js]
+- "members_route_get": "GET()" | kind=code-symbol | source=app/api/members/route.js:L6 | neighbors=[route.js]
+- "members_route_patch": "PATCH()" | kind=code-symbol | source=app/api/members/route.js:L74 | neighbors=[route.js]
+- "members_route_post": "POST()" | kind=code-symbol | source=app/api/members/route.js:L34 | neighbors=[route.js]
+- "next_config_nextconfig": "nextConfig" | kind=code-symbol | source=next.config.mjs:L2 | neighbors=[next.config.mjs]
+- "offline_db_appdatabase_clearalldata": ".clearAllData()" | kind=code-symbol | source=lib/offline/db.js:L357 | neighbors=[AppDatabase]
+- "offline_db_appdatabase_clearallsyncerrors": ".clearAllSyncErrors()" | kind=code-symbol | source=lib/offline/db.js:L318 | neighbors=[AppDatabase]
+- "offline_db_appdatabase_constructor": ".constructor()" | kind=code-symbol | source=lib/offline/db.js:L5 | neighbors=[AppDatabase]
+- "offline_db_appdatabase_getallerrorrecords": ".getAllErrorRecords()" | kind=code-symbol | source=lib/offline/db.js:L249 | neighbors=[AppDatabase]
+- "offline_db_appdatabase_insertoffline": ".insertOffline()" | kind=code-symbol | source=lib/offline/db.js:L48 | neighbors=[AppDatabase]
+- "offline_db_appdatabase_marksynced": ".markSynced()" | kind=code-symbol | source=lib/offline/db.js:L130 | neighbors=[AppDatabase]
+- "offline_db_appdatabase_marksyncerror": ".markSyncError()" | kind=code-symbol | source=lib/offline/db.js:L153 | neighbors=[AppDatabase]
+- "offline_db_appdatabase_resolvesyncerror": ".resolveSyncError()" | kind=code-symbol | source=lib/offline/db.js:L285 | neighbors=[AppDatabase]
+- "offline_db_db": "db" | kind=code-symbol | source=lib/offline/db.js:L415 | neighbors=[db.js]
+- "offline_network_networkmonitor_stopheartbeat": ".stopHeartbeat()" | kind=code-symbol | source=lib/offline/network.js:L90 | neighbors=[NetworkMonitor]
+- "offline_network_networkmonitor_subscribe": ".subscribe()" | kind=code-symbol | source=lib/offline/network.js:L40 | neighbors=[NetworkMonitor]
+- "offline_offlinepdfgenerator_formatdate": "formatDate()" | kind=code-symbol | source=lib/offline/offlinePdfGenerator.js:L108 | neighbors=[offlinePdfGenerator.js]
+- "offline_offlinepdfgenerator_getreferencerange": "getReferenceRange()" | kind=code-symbol | source=lib/offline/offlinePdfGenerator.js:L85 | neighbors=[offlinePdfGenerator.js]
 - "offline_offlinepdfgenerator_wrapplaintextlines": "wrapPlainTextLines()" | kind=code-symbol | source=lib/offline/offlinePdfGenerator.js:L209 | neighbors=[offlinePdfGenerator.js]
-- "offline_offlineprint_printreportoffline": "printReportOffline()" | kind=code-symbol | source=lib/offline/offlinePrint.js:L200 | neighbors=[offlinePrint.js]
+- "offline_offlineprint_printreportoffline": "printReportOffline()" | kind=code-symbol | source=lib/offline/offlinePrint.js:L31 | neighbors=[offlinePrint.js]
 - "offline_reloginmodal_reloginmodal": "ReLoginModal()" | kind=code-symbol | source=components/offline/ReLoginModal.jsx:L31 | neighbors=[ReLoginModal.jsx]
 - "offline_syncindicator_syncindicator": "SyncIndicator()" | kind=code-symbol | source=components/offline/SyncIndicator.jsx:L34 | neighbors=[SyncIndicator.jsx]
 - "offline_syncstatusicon_syncstatusicon": "SyncStatusIcon()" | kind=code-symbol | source=components/offline/SyncStatusIcon.jsx:L13 | neighbors=[SyncStatusIcon.jsx]
@@ -33,30 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "pdf_page_settingspdfpage": "SettingsPdfPage()" | kind=code-symbol | source=app/(customer)/(dashboard)/settings/pdf/page.js:L8 | neighbors=[page.js]
 - "pdf_pdfclient_pdfsettingsclient": "PdfSettingsClient()" | kind=code-symbol | source=app/(customer)/(dashboard)/settings/pdf/pdfClient.jsx:L62 | neighbors=[pdfClient.jsx]
 - "pdf_route_default_column_order": "DEFAULT_COLUMN_ORDER" | kind=code-symbol | source=app/api/settings/pdf/route.js:L5 | neighbors=[route.js]
-- "pdf_route_default_pdf_settings": "DEFAULT_PDF_SETTINGS" | kind=code-symbol | source=app/api/settings/pdf/route.js:L13 | neighbors=[route.js]
-- "pdf_route_get": "GET()" | kind=code-symbol | source=app/api/settings/pdf/route.js:L45 | neighbors=[route.js]
-- "pdf_route_post": "POST()" | kind=code-symbol | source=app/api/settings/pdf/route.js:L122 | neighbors=[route.js]
-- "postcss_config_config": "config" | kind=code-symbol | source=postcss.config.mjs:L1 | neighbors=[postcss.config.mjs]
-- "print_openprint_openofflinebillprint": "openOfflineBillPrint()" | kind=code-symbol | source=lib/offline/print/openPrint.js:L36 | neighbors=[openPrint.js]
-- "print_openprint_openofflinereportprint": "openOfflineReportPrint()" | kind=code-symbol | source=lib/offline/print/openPrint.js:L10 | neighbors=[openPrint.js]
-- "print_reportpdfgenerator_formatdate": "formatDate()" | kind=code-symbol | source=lib/offline/print/reportPdfGenerator.js:L110 | neighbors=[reportPdfGenerator.js]
-- "prisma_process_dynamic_parameters_prisma": "prisma" | kind=code-symbol | source=prisma/process-dynamic-parameters.js:L2 | neighbors=[process-dynamic-parameters.js]
-- "prisma_process_dynamic_parameters_prismaclient": "{ PrismaClient }" | kind=code-symbol | source=prisma/process-dynamic-parameters.js:L1 | neighbors=[process-dynamic-parameters.js]
-- "prisma_seed_bcrypt": "bcrypt" | kind=code-symbol | source=prisma/seed.js:L3 | neighbors=[seed.js]
-- "prisma_seed_prisma": "prisma" | kind=code-symbol | source=prisma/seed.js:L2 | neighbors=[seed.js]
-- "prisma_seed_prismaclient": "{ PrismaClient }" | kind=code-symbol | source=prisma/seed.js:L1 | neighbors=[seed.js]
-- "profile_route_get": "GET()" | kind=code-symbol | source=app/api/profile/route.js:L6 | neighbors=[route.js]
-- "profile_route_put": "PUT()" | kind=code-symbol | source=app/api/profile/route.js:L53 | neighbors=[route.js]
-- "providers_offlineprovider_offlineprovider": "OfflineProvider()" | kind=code-symbol | source=components/providers/OfflineProvider.jsx:L11 | neighbors=[OfflineProvider.jsx]
-- "proxy_config": "config" | kind=code-symbol | source=proxy.js:L33 | neighbors=[proxy.js]
-- "proxy_jwt_secret": "JWT_SECRET" | kind=code-symbol | source=proxy.js:L4 | neighbors=[proxy.js]
-- "proxy_proxy": "proxy()" | kind=code-symbol | source=proxy.js:L8 | neighbors=[proxy.js]
-- "public_sw_createcleanresponse": "createCleanResponse()" | kind=code-symbol | source=public/sw.js:L50 | neighbors=[sw.js]
-- "public_sw_extractassetsfromhtml": "extractAssetsFromHtml()" | kind=code-symbol | source=public/sw.js:L30 | neighbors=[sw.js]
-- "public_sw_ishtmlresponse": "isHtmlResponse()" | kind=code-symbol | source=public/sw.js:L165 | neighbors=[sw.js]
-- "public_sw_precache_routes": "PRECACHE_ROUTES" | kind=code-symbol | source=public/sw.js:L5 | neighbors=[sw.js]
-- "public_sw_sanitizeresponse": "sanitizeResponse()" | kind=code-symbol | source=public/sw.js:L61 | neighbors=[sw.js]
-- "q_route_get": "GET()" | kind=code-symbol | source=app/(printReport)/q/route.js:L4 | neighbors=[route.js]
 
 ## Instructions
 

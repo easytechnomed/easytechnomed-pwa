@@ -1,4 +1,4 @@
-# Node Description Batch 4 of 150
+# Node Description Batch 4 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -24,6 +24,17 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "scratch_test_user_lipid": "test-user-lipid.js" | kind=code-symbol | source=scratch/test-user-lipid.js:L1 | neighbors=[dcd11d4 first commit, addValueToValuesMap(), checkFormulaDependencies(), evaluatedFormulas, evaluateExpression(), formulas]
+- "sync_modelregistry": "modelRegistry.js" | kind=code-symbol | source=lib/offline/sync/modelRegistry.js:L1 | neighbors=[dcd11d4 first commit, MODEL_REGISTRY, syncManager.js, 2b2534c f, 56f4d63 f, 67434f2 payment issue only]
+- "app_layout": "layout.js" | kind=code-symbol | source=app/layout.js:L1 | neighbors=[metadata, outfit, RootLayout(), viewport, dcd11d4 first commit, 252e194 e]
+- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@9f59247de8e17ece3b64548107440d0473aa2d43": "9f59247 expire token" | kind=Commit | source=git | neighbors=[48cc7ec 2.0.22, main, eacdd5b 2.0.23, resultEntry.jsx, OfflineSyncContext.js, useSync.js]
+- "lib_auth": "auth.js" | kind=code-symbol | source=lib/auth.js:L1 | neighbors=[dcd11d4 first commit, requireAdmin(), requireSuperAdmin(), requireUser(), signToken(), verifySuperAdminAPI()]
+- "lib_mail_sendmailwithfallback": "sendMailWithFallback()" | kind=code-symbol | source=lib/mail.js:L46 | neighbors=[mail.js, sendApprovalEmail(), createTransporter(), getFallbackConfig(), getPrimaryConfig(), sendOnboardingWelcomeEmail()]
+- "pdf_pdfclient": "pdfClient.jsx" | kind=code-symbol | source=app/(customer)/(dashboard)/settings/pdf/pdfClient.jsx:L1 | neighbors=[dcd11d4 first commit, page.js, PdfSettingsClient(), page.js, 252e194 e, 532b740 fixed]
+- "print_billpdfgenerator": "billPdfGenerator.js" | kind=code-symbol | source=lib/offline/print/billPdfGenerator.js:L1 | neighbors=[dcd11d4 first commit, offlinePrint.js, CODE39_PATTERNS, drawCode39Barcode(), formatDate(), generateOfflineBillPdf()]
+- "print_openprint": "openPrint.js" | kind=code-symbol | source=lib/offline/print/openPrint.js:L1 | neighbors=[dcd11d4 first commit, billHtmlGenerator.js, generateOfflineBillHtml(), billPdfGenerator.js, generateOfflineBillPdf(), openOfflineBillPrint()]
+- "registrations_route": "route.js" | kind=code-symbol | source=app/api/registrations/route.js:L1 | neighbors=[dcd11d4 first commit, generateRandomSuffix(), GET(), POST(), registrationSchema, serializeData()]
+- "runtime_edge_addsuggestion": "addSuggestion()" | kind=code-symbol | source=scratch/generated-client/runtime/edge.js:L3 | neighbors=[edge.js, Ao(), Au(), du(), eu(), mu()]
 - "runtime_edge_ar": "Ar()" | kind=code-symbol | source=scratch/generated-client/runtime/edge.js:L3 | neighbors=[edge.js, Au(), bo(), hu(), ku(), Su()]
 - "runtime_edge_esm_addsuggestion": "addSuggestion()" | kind=code-symbol | source=scratch/generated-client/runtime/edge-esm.js:L3 | neighbors=[edge-esm.js, Ao(), Au(), cu(), mu(), pu()]
 - "runtime_edge_esm_co": "co()" | kind=code-symbol | source=scratch/generated-client/runtime/edge-esm.js:L1 | neighbors=[edge-esm.js, asObject(), e(), getDeepSubSelectionValue(), getField(), getFieldValue()]
@@ -53,17 +64,6 @@ one-sentence description — no prose, no markdown fences.
 - "runtime_wasm_concat": "concat()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, alloc(), slice(), ia(), ka(), la()]
 - "runtime_wasm_fi": "fi()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L5 | neighbors=[wasm.js, di(), de(), getArgumentName(), getArgumentPath(), getSelectionPath()]
 - "runtime_wasm_includes": "includes()" | kind=code-symbol | source=scratch/generated-client/runtime/wasm.js:L1 | neighbors=[wasm.js, Ce(), go(), indexOf(), isEncoding(), isPreviewFeatureOn()]
-- "scratch_test_user_lipid": "test-user-lipid.js" | kind=code-symbol | source=scratch/test-user-lipid.js:L1 | neighbors=[252e194 e, addValueToValuesMap(), checkFormulaDependencies(), evaluatedFormulas, evaluateExpression(), formulas]
-- "sync_modelregistry": "modelRegistry.js" | kind=code-symbol | source=lib/offline/sync/modelRegistry.js:L1 | neighbors=[2b2534c f, 56f4d63 f, 67434f2 payment issue only, 6c2dfe4 test, 7d8c494 fxed, 84a8ff2 full indexeddb based]
-- "app_layout": "layout.js" | kind=code-symbol | source=app/layout.js:L1 | neighbors=[metadata, outfit, RootLayout(), viewport, 252e194 e, 2582be7 fixed zoom issue]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@905ef50c544a4ccfa89bdc37ce457a911b896b6a": "905ef50 fixed" | kind=Commit | source=git | neighbors=[720f016 2.0.13, main, a14c9b8 2.0.14, AdminLayoutClient.js, offlinePdfGenerator.js, offlinePrint.js]
-- "commit:repo:github.com-personal/miznaansari/easytechnomed-pwa@f3857f9f7aa53ad996b1d542de705f8b074c82df": "f3857f9 f" | kind=Commit | source=git | neighbors=[6325ac4 2.0.20, main, f4e1e65 2.0.21, offlinePdfGenerator.js, SyncIndicator.jsx, route.js]
-- "lib_auth": "auth.js" | kind=code-symbol | source=lib/auth.js:L1 | neighbors=[252e194 e, 5e3d9ef d, requireAdmin(), requireSuperAdmin(), requireUser(), signToken()]
-- "offline_network_networkmonitor": "NetworkMonitor" | kind=code-symbol | source=lib/offline/network.js:L6 | neighbors=[network.js, .checkConnection(), .constructor(), .handleStatusChange(), .notifyListeners(), .subscribe()]
-- "pdf_pdfclient": "pdfClient.jsx" | kind=code-symbol | source=app/(customer)/(dashboard)/settings/pdf/pdfClient.jsx:L1 | neighbors=[252e194 e, 532b740 fixed, 53ca5c1 stable version 1, 7d8c494 fxed, 84a8ff2 full indexeddb based, 905ef50 fixed]
-- "registrations_route": "route.js" | kind=code-symbol | source=app/api/registrations/route.js:L1 | neighbors=[252e194 e, 6c2dfe4 test, 7d8c494 fxed, d446d11 fixed code, generateRandomSuffix(), GET()]
-- "runtime_edge_esm_getdeepfieldvalue": "getDeepFieldValue()" | kind=code-symbol | source=scratch/generated-client/runtime/edge-esm.js:L3 | neighbors=[edge-esm.js, bu(), Eu(), getDeepField(), hc(), pu()]
-- "runtime_edge_esm_pu": "pu()" | kind=code-symbol | source=scratch/generated-client/runtime/edge-esm.js:L4 | neighbors=[edge-esm.js, cu(), addErrorMessage(), addSuggestion(), Ao(), asObject()]
 
 ## Instructions
 

@@ -1,4 +1,4 @@
-# Node Description Batch 112 of 150
+# Node Description Batch 112 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_tupletounion": "_TupleToUnion" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L994 | neighbors=[index.d.ts]
+- "generated_client_index_d_typemap": "TypeMap" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L1057 | neighbors=[index.d.ts]
+- "generated_client_index_d_typemapcb": "TypeMapCb" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L1053 | neighbors=[index.d.ts]
+- "generated_client_index_d_unenumerate": "UnEnumerate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L821 | neighbors=[index.d.ts]
+- "generated_client_index_d_union": "Union" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L852 | neighbors=[index.d.ts]
+- "generated_client_index_d_user": "User" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L35 | neighbors=[index.d.ts]
+- "generated_client_index_d_user_sessionsargs": "User$sessionsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7876 | neighbors=[index.d.ts]
+- "generated_client_index_d_user_workspaceargs": "User$workspaceArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7861 | neighbors=[index.d.ts]
+- "generated_client_index_d_useraggregateargs": "UserAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L6969 | neighbors=[index.d.ts]
+- "generated_client_index_d_userargs": "UserArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54330 | neighbors=[index.d.ts]
+- "generated_client_index_d_useravgaggregateinputtype": "UserAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L6896 | neighbors=[index.d.ts]
+- "generated_client_index_d_useravgaggregateoutputtype": "UserAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L6822 | neighbors=[index.d.ts]
+- "generated_client_index_d_useravgorderbyaggregateinput": "UserAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40816 | neighbors=[index.d.ts]
+- "generated_client_index_d_usercountaggregateinputtype": "UserCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L6948 | neighbors=[index.d.ts]
+- "generated_client_index_d_usercountaggregateoutputtype": "UserCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L6874 | neighbors=[index.d.ts]
+- "generated_client_index_d_usercountargs": "UserCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7177 | neighbors=[index.d.ts]
+- "generated_client_index_d_usercountorderbyaggregateinput": "UserCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40796 | neighbors=[index.d.ts]
+- "generated_client_index_d_usercountoutputtype": "UserCountOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3280 | neighbors=[index.d.ts]
+- "generated_client_index_d_usercountoutputtypeargs": "UserCountOutputTypeArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54278 | neighbors=[index.d.ts]
+- "generated_client_index_d_usercountoutputtypecountsessionsargs": "UserCountOutputTypeCountSessionsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3302 | neighbors=[index.d.ts]
+- "generated_client_index_d_usercountoutputtypedefaultargs": "UserCountOutputTypeDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3292 | neighbors=[index.d.ts]
+- "generated_client_index_d_usercountoutputtypeselect": "UserCountOutputTypeSelect" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L3284 | neighbors=[index.d.ts]
+- "generated_client_index_d_usercreateargs": "UserCreateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7742 | neighbors=[index.d.ts]
+- "generated_client_index_d_usercreateinput": "UserCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37546 | neighbors=[index.d.ts]
+- "generated_client_index_d_usercreatemanyargs": "UserCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7760 | neighbors=[index.d.ts]
 - "generated_client_index_d_usercreatemanyinput": "UserCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37628 | neighbors=[index.d.ts]
 - "generated_client_index_d_usercreatemanyroleinput": "UserCreateManyRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52730 | neighbors=[index.d.ts]
 - "generated_client_index_d_usercreatemanyroleinputenvelope": "UserCreateManyRoleInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46691 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_usercreatewithoutsessionsinput": "UserCreateWithoutSessionsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46553 | neighbors=[index.d.ts]
 - "generated_client_index_d_usercreatewithoutworkspaceinput": "UserCreateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45394 | neighbors=[index.d.ts]
 - "generated_client_index_d_userdefaultargs": "UserDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7896 | neighbors=[index.d.ts]
-- "generated_client_index_d_userdelegate": "UserDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7182 | neighbors=[index.d.ts]
-- "generated_client_index_d_userdeleteargs": "UserDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7833 | neighbors=[index.d.ts]
-- "generated_client_index_d_userdeletemanyargs": "UserDeleteManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7851 | neighbors=[index.d.ts]
-- "generated_client_index_d_userfieldrefs": "UserFieldRefs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7542 | neighbors=[index.d.ts]
-- "generated_client_index_d_userfindfirstargs": "UserFindFirstArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7603 | neighbors=[index.d.ts]
-- "generated_client_index_d_userfindfirstorthrowargs": "UserFindFirstOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7651 | neighbors=[index.d.ts]
-- "generated_client_index_d_userfindmanyargs": "UserFindManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7699 | neighbors=[index.d.ts]
-- "generated_client_index_d_userfinduniqueargs": "UserFindUniqueArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7567 | neighbors=[index.d.ts]
-- "generated_client_index_d_userfinduniqueorthrowargs": "UserFindUniqueOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7585 | neighbors=[index.d.ts]
-- "generated_client_index_d_usergetpayload": "UserGetPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7175 | neighbors=[index.d.ts]
-- "generated_client_index_d_usergroupbyargs": "UserGroupByArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7041 | neighbors=[index.d.ts]
-- "generated_client_index_d_usergroupbyoutputtype": "UserGroupByOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7055 | neighbors=[index.d.ts]
-- "generated_client_index_d_userinclude": "UserInclude" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7139 | neighbors=[index.d.ts]
-- "generated_client_index_d_userlistrelationfilter": "UserListRelationFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40443 | neighbors=[index.d.ts]
-- "generated_client_index_d_usermaxaggregateinputtype": "UserMaxAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L6928 | neighbors=[index.d.ts]
-- "generated_client_index_d_usermaxaggregateoutputtype": "UserMaxAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L6854 | neighbors=[index.d.ts]
-- "generated_client_index_d_usermaxorderbyaggregateinput": "UserMaxOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40822 | neighbors=[index.d.ts]
-- "generated_client_index_d_userminaggregateinputtype": "UserMinAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L6908 | neighbors=[index.d.ts]
-- "generated_client_index_d_userminaggregateoutputtype": "UserMinAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L6834 | neighbors=[index.d.ts]
-- "generated_client_index_d_userminorderbyaggregateinput": "UserMinOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40842 | neighbors=[index.d.ts]
-- "generated_client_index_d_userorderbyrelationaggregateinput": "UserOrderByRelationAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40499 | neighbors=[index.d.ts]
-- "generated_client_index_d_userorderbywithaggregationinput": "UserOrderByWithAggregationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34791 | neighbors=[index.d.ts]
-- "generated_client_index_d_userorderbywithrelationinput": "UserOrderByWithRelationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34742 | neighbors=[index.d.ts]
-- "generated_client_index_d_userpayload": "$UserPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L7146 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrelationfilter": "UserRelationFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40884 | neighbors=[index.d.ts]
 
 ## Instructions
 

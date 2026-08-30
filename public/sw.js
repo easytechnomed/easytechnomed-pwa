@@ -1,4 +1,4 @@
-const CACHE_NAME = "easytechnomed-pwa-v12";
+const CACHE_NAME = "easytechnomed-pwa-v13";
 const OFFLINE_URL = "/offline.html";
 
 // Core routes and critical static assets to pre-cache on install

@@ -1,4 +1,4 @@
-# Node Description Batch 115 of 150
+# Node Description Batch 115 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_userrolepermissionavgaggregateoutputtype": "UserRolePermissionAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9785 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissionavgorderbyaggregateinput": "UserRolePermissionAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40973 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncountaggregateinputtype": "UserRolePermissionCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9837 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncountaggregateoutputtype": "UserRolePermissionCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9807 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncountargs": "UserRolePermissionCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9988 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncountorderbyaggregateinput": "UserRolePermissionCountOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40967 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncreateargs": "UserRolePermissionCreateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10537 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncreateinput": "UserRolePermissionCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37791 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncreatemanyargs": "UserRolePermissionCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10555 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncreatemanyinput": "UserRolePermissionCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37813 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncreatemanyroleinput": "UserRolePermissionCreateManyRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52749 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncreatemanyroleinputenvelope": "UserRolePermissionCreateManyRoleInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46710 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncreatenestedmanywithoutroleinput": "UserRolePermissionCreateNestedManyWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43374 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncreateorconnectwithoutroleinput": "UserRolePermissionCreateOrConnectWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46705 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissioncreatewithoutroleinput": "UserRolePermissionCreateWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46696 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissiondefaultargs": "UserRolePermissionDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10656 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissiondelegate": "UserRolePermissionDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9993 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissiondeleteargs": "UserRolePermissionDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10628 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissiondeletemanyargs": "UserRolePermissionDeleteManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10646 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissionfieldrefs": "UserRolePermissionFieldRefs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10351 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissionfindfirstargs": "UserRolePermissionFindFirstArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10398 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissionfindfirstorthrowargs": "UserRolePermissionFindFirstOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10446 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissionfindmanyargs": "UserRolePermissionFindManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10494 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissionfinduniqueargs": "UserRolePermissionFindUniqueArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10362 | neighbors=[index.d.ts]
+- "generated_client_index_d_userrolepermissionfinduniqueorthrowargs": "UserRolePermissionFindUniqueOrThrowArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10380 | neighbors=[index.d.ts]
 - "generated_client_index_d_userrolepermissiongetpayload": "UserRolePermissionGetPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9986 | neighbors=[index.d.ts]
 - "generated_client_index_d_userrolepermissiongroupbyargs": "UserRolePermissionGroupByArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9916 | neighbors=[index.d.ts]
 - "generated_client_index_d_userrolepermissiongroupbyoutputtype": "UserRolePermissionGroupByOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9930 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_userrolepermissionorderbywithaggregationinput": "UserRolePermissionOrderByWithAggregationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34979 | neighbors=[index.d.ts]
 - "generated_client_index_d_userrolepermissionorderbywithrelationinput": "UserRolePermissionOrderByWithRelationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34961 | neighbors=[index.d.ts]
 - "generated_client_index_d_userrolepermissionpayload": "$UserRolePermissionPayload" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9973 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionroleidpermissioncompounduniqueinput": "UserRolePermissionRoleIdPermissionCompoundUniqueInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40962 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionscalarfieldenum": "UserRolePermissionScalarFieldEnum" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L33981 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionscalarwhereinput": "UserRolePermissionScalarWhereInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46747 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionscalarwherewithaggregatesinput": "UserRolePermissionScalarWhereWithAggregatesInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34990 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionselect": "UserRolePermissionSelect" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9955 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionselectscalar": "UserRolePermissionSelectScalar" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9963 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionsumaggregateinputtype": "UserRolePermissionSumAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9820 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionsumaggregateoutputtype": "UserRolePermissionSumAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L9790 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionsumorderbyaggregateinput": "UserRolePermissionSumOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40990 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionuncheckedcreateinput": "UserRolePermissionUncheckedCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37796 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionuncheckedcreatenestedmanywithoutroleinput": "UserRolePermissionUncheckedCreateNestedManyWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43388 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionuncheckedcreatewithoutroleinput": "UserRolePermissionUncheckedCreateWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46700 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionuncheckedupdateinput": "UserRolePermissionUncheckedUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37807 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionuncheckedupdatemanyinput": "UserRolePermissionUncheckedUpdateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37823 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionuncheckedupdatemanywithoutroleinput": "UserRolePermissionUncheckedUpdateManyWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52821 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionuncheckedupdatemanywithoutrolenestedinput": "UserRolePermissionUncheckedUpdateManyWithoutRoleNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43437 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionuncheckedupdatewithoutroleinput": "UserRolePermissionUncheckedUpdateWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52816 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionupdateargs": "UserRolePermissionUpdateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10566 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionupdateinput": "UserRolePermissionUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37802 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionupdatemanyargs": "UserRolePermissionUpdateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10588 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionupdatemanymutationinput": "UserRolePermissionUpdateManyMutationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37819 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionupdatemanywithoutrolenestedinput": "UserRolePermissionUpdateManyWithoutRoleNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43409 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionupdatemanywithwherewithoutroleinput": "UserRolePermissionUpdateManyWithWhereWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46742 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionupdatewithoutroleinput": "UserRolePermissionUpdateWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52812 | neighbors=[index.d.ts]
-- "generated_client_index_d_userrolepermissionupdatewithwhereuniquewithoutroleinput": "UserRolePermissionUpdateWithWhereUniqueWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46737 | neighbors=[index.d.ts]
 
 ## Instructions
 

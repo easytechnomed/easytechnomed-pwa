@@ -1,4 +1,4 @@
-# Node Description Batch 94 of 150
+# Node Description Batch 94 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_registrationuncheckedupdatewithoutworkspaceinput": "RegistrationUncheckedUpdateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52149 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdateargs": "RegistrationUpdateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18341 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdateinput": "RegistrationUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L38577 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatemanyargs": "RegistrationUpdateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L18363 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatemanymutationinput": "RegistrationUpdateManyMutationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L38711 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatemanywithoutadminnestedinput": "RegistrationUpdateManyWithoutAdminNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43587 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatemanywithoutrefbynestedinput": "RegistrationUpdateManyWithoutRefByNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43831 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatemanywithoutsecondrefnestedinput": "RegistrationUpdateManyWithoutSecondRefNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43845 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatemanywithoutworkspacenestedinput": "RegistrationUpdateManyWithoutWorkspaceNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42927 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatemanywithwherewithoutadmininput": "RegistrationUpdateManyWithWhereWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47236 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatemanywithwherewithoutrefbyinput": "RegistrationUpdateManyWithWhereWithoutRefByInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47878 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatemanywithwherewithoutsecondrefinput": "RegistrationUpdateManyWithWhereWithoutSecondRefInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47894 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatemanywithwherewithoutworkspaceinput": "RegistrationUpdateManyWithWhereWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45815 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdateonerequiredwithoutpaymentsnestedinput": "RegistrationUpdateOneRequiredWithoutPaymentsNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44633 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdateonerequiredwithoutresultsnestedinput": "RegistrationUpdateOneRequiredWithoutResultsNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44597 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdateonerequiredwithouttestsnestedinput": "RegistrationUpdateOneRequiredWithoutTestsNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44333 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatetoonewithwherewithoutpaymentsinput": "RegistrationUpdateToOneWithWhereWithoutPaymentsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50431 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatetoonewithwherewithoutresultsinput": "RegistrationUpdateToOneWithWhereWithoutResultsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50049 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatetoonewithwherewithouttestsinput": "RegistrationUpdateToOneWithWhereWithoutTestsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49041 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatewithoutadmininput": "RegistrationUpdateWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52946 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatewithoutpaymentsinput": "RegistrationUpdateWithoutPaymentsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50436 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatewithoutrefbyinput": "RegistrationUpdateWithoutRefByInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L53297 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatewithoutresultsinput": "RegistrationUpdateWithoutResultsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50054 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatewithoutsecondrefinput": "RegistrationUpdateWithoutSecondRefInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L53428 | neighbors=[index.d.ts]
+- "generated_client_index_d_registrationupdatewithouttestsinput": "RegistrationUpdateWithoutTestsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L49046 | neighbors=[index.d.ts]
 - "generated_client_index_d_registrationupdatewithoutworkspaceinput": "RegistrationUpdateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L52105 | neighbors=[index.d.ts]
 - "generated_client_index_d_registrationupdatewithwhereuniquewithoutadmininput": "RegistrationUpdateWithWhereUniqueWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47231 | neighbors=[index.d.ts]
 - "generated_client_index_d_registrationupdatewithwhereuniquewithoutrefbyinput": "RegistrationUpdateWithWhereUniqueWithoutRefByInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47873 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_registrationupsertwithwhereuniquewithoutworkspaceinput": "RegistrationUpsertWithWhereUniqueWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45804 | neighbors=[index.d.ts]
 - "generated_client_index_d_registrationwhereinput": "RegistrationWhereInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L35596 | neighbors=[index.d.ts]
 - "generated_client_index_d_registrationwhereuniqueinput": "RegistrationWhereUniqueInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L35699 | neighbors=[index.d.ts]
-- "generated_client_index_d_registrationworkspaceidlabidcompounduniqueinput": "RegistrationWorkspaceIdLabIdCompoundUniqueInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41531 | neighbors=[index.d.ts]
-- "generated_client_index_d_requiredkeys": "RequiredKeys" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L748 | neighbors=[index.d.ts]
-- "generated_client_index_d_selectandinclude": "SelectAndInclude" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L718 | neighbors=[index.d.ts]
-- "generated_client_index_d_selectandomit": "SelectAndOmit" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L723 | neighbors=[index.d.ts]
-- "generated_client_index_d_selectsubset": "SelectSubset" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L771 | neighbors=[index.d.ts]
-- "generated_client_index_d_sortorder": "SortOrder" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34419 | neighbors=[index.d.ts]
-- "generated_client_index_d_sortorderinput": "SortOrderInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40478 | neighbors=[index.d.ts]
-- "generated_client_index_d_strict": "_Strict" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L904 | neighbors=[index.d.ts]
-- "generated_client_index_d_stringfieldrefinput": "StringFieldRefInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L34445 | neighbors=[index.d.ts]
-- "generated_client_index_d_stringfieldupdateoperationsinput": "StringFieldUpdateOperationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42875 | neighbors=[index.d.ts]
-- "generated_client_index_d_stringfilter": "StringFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40378 | neighbors=[index.d.ts]
-- "generated_client_index_d_stringnullablefilter": "StringNullableFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40689 | neighbors=[index.d.ts]
-- "generated_client_index_d_stringnullablewithaggregatesfilter": "StringNullableWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40748 | neighbors=[index.d.ts]
-- "generated_client_index_d_stringwithaggregatesfilter": "StringWithAggregatesFilter" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40581 | neighbors=[index.d.ts]
-- "generated_client_index_d_subset": "Subset" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L762 | neighbors=[index.d.ts]
-- "generated_client_index_d_subsetintersection": "SubsetIntersection" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L784 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmin": "SuperAdmin" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L25 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmin_sessionsargs": "SuperAdmin$sessionsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L5819 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmin_trackingsargs": "SuperAdmin$trackingsArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L5839 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadminaggregateargs": "SuperAdminAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4986 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadminargs": "SuperAdminArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54322 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadminavgaggregateinputtype": "SuperAdminAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4950 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadminavgaggregateoutputtype": "SuperAdminAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4913 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadminavgorderbyaggregateinput": "SuperAdminAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L40663 | neighbors=[index.d.ts]
-- "generated_client_index_d_superadmincountaggregateinputtype": "SuperAdminCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L4976 | neighbors=[index.d.ts]
 
 ## Instructions
 

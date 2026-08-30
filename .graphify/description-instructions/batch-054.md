@@ -1,4 +1,4 @@
-# Node Description Batch 55 of 150
+# Node Description Batch 55 of 151
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,31 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "generated_client_index_d_adminaddresssumaggregateoutputtype": "AdminAddressSumAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L23976 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresssumorderbyaggregateinput": "AdminAddressSumOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42221 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressuncheckedcreateinput": "AdminAddressUncheckedCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39460 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressuncheckedcreatenestedonewithoutadmininput": "AdminAddressUncheckedCreateNestedOneWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43504 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressuncheckedcreatewithoutadmininput": "AdminAddressUncheckedCreateWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L46873 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressuncheckedupdateinput": "AdminAddressUncheckedUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39489 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressuncheckedupdatemanyinput": "AdminAddressUncheckedUpdateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39532 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressuncheckedupdateonewithoutadminnestedinput": "AdminAddressUncheckedUpdateOneWithoutAdminNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43601 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressuncheckedupdatewithoutadmininput": "AdminAddressUncheckedUpdateWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47151 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressupdateargs": "AdminAddressUpdateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24857 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressupdateinput": "AdminAddressUpdateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39475 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressupdatemanyargs": "AdminAddressUpdateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24879 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressupdatemanymutationinput": "AdminAddressUpdateManyMutationInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L39519 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressupdateonewithoutadminnestedinput": "AdminAddressUpdateOneWithoutAdminNestedInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43549 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressupdatetoonewithwherewithoutadmininput": "AdminAddressUpdateToOneWithWhereWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47133 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressupdatewithoutadmininput": "AdminAddressUpdateWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47138 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressupsertargs": "AdminAddressUpsertArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L24893 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddressupsertwithoutadmininput": "AdminAddressUpsertWithoutAdminInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47127 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresswhereinput": "AdminAddressWhereInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36426 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaddresswhereuniqueinput": "AdminAddressWhereUniqueInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L36461 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminaggregateargs": "AdminAggregateArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10877 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminargs": "AdminArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L54346 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminavgaggregateinputtype": "AdminAvgAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10779 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminavgaggregateoutputtype": "AdminAvgAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10680 | neighbors=[index.d.ts]
+- "generated_client_index_d_adminavgorderbyaggregateinput": "AdminAvgOrderByAggregateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L41052 | neighbors=[index.d.ts]
 - "generated_client_index_d_admincountaggregateinputtype": "AdminCountAggregateInputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10849 | neighbors=[index.d.ts]
 - "generated_client_index_d_admincountaggregateoutputtype": "AdminCountAggregateOutputType" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L10750 | neighbors=[index.d.ts]
 - "generated_client_index_d_admincountargs": "AdminCountArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L11122 | neighbors=[index.d.ts]
@@ -32,31 +57,6 @@ one-sentence description — no prose, no markdown fences.
 - "generated_client_index_d_admincreateinput": "AdminCreateInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37829 | neighbors=[index.d.ts]
 - "generated_client_index_d_admincreatemanyargs": "AdminCreateManyArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L11715 | neighbors=[index.d.ts]
 - "generated_client_index_d_admincreatemanyinput": "AdminCreateManyInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L37951 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatemanyroleinput": "AdminCreateManyRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L53077 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatemanyroleinputenvelope": "AdminCreateManyRoleInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47439 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatemanyworkspaceinput": "AdminCreateManyWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L51764 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatemanyworkspaceinputenvelope": "AdminCreateManyWorkspaceInputEnvelope" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45182 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatenestedmanywithoutroleinput": "AdminCreateNestedManyWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43667 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatenestedmanywithoutworkspaceinput": "AdminCreateNestedManyWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L42737 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatenestedonewithoutaddressinput": "AdminCreateNestedOneWithoutAddressInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44613 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatenestedonewithoutregistrationsinput": "AdminCreateNestedOneWithoutRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44148 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatenestedonewithoutsessionsinput": "AdminCreateNestedOneWithoutSessionsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L43653 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatenestedonewithouttrackingsinput": "AdminCreateNestedOneWithoutTrackingsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L44641 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreateorconnectwithoutaddressinput": "AdminCreateOrConnectWithoutAddressInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50256 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreateorconnectwithoutregistrationsinput": "AdminCreateOrConnectWithoutRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48519 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreateorconnectwithoutroleinput": "AdminCreateOrConnectWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47434 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreateorconnectwithoutsessionsinput": "AdminCreateOrConnectWithoutSessionsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47300 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreateorconnectwithouttrackingsinput": "AdminCreateOrConnectWithoutTrackingsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50584 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreateorconnectwithoutworkspaceinput": "AdminCreateOrConnectWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45177 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatewithoutaddressinput": "AdminCreateWithoutAddressInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50197 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatewithoutregistrationsinput": "AdminCreateWithoutRegistrationsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L48460 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatewithoutroleinput": "AdminCreateWithoutRoleInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47375 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatewithoutsessionsinput": "AdminCreateWithoutSessionsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L47241 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatewithouttrackingsinput": "AdminCreateWithoutTrackingsInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L50525 | neighbors=[index.d.ts]
-- "generated_client_index_d_admincreatewithoutworkspaceinput": "AdminCreateWithoutWorkspaceInput" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L45118 | neighbors=[index.d.ts]
-- "generated_client_index_d_admindefaultargs": "AdminDefaultArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L11906 | neighbors=[index.d.ts]
-- "generated_client_index_d_admindelegate": "AdminDelegate" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L11127 | neighbors=[index.d.ts]
-- "generated_client_index_d_admindeleteargs": "AdminDeleteArgs" | kind=code-symbol | source=scratch/generated-client/index.d.ts:L11788 | neighbors=[index.d.ts]
 
 ## Instructions
 
